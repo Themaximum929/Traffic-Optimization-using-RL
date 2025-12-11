@@ -1,0 +1,584 @@
+{
+  "WHT": [
+    {
+      "year": 2023,
+      "month": 1,
+      "peak_avg_flow": 28.523272930308107,
+      "non_peak_avg_flow": 14.636662919543921
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "peak_avg_flow": 29.763128035219896,
+      "non_peak_avg_flow": 13.215979530605097
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "peak_avg_flow": 32.26753431140558,
+      "non_peak_avg_flow": 15.4604909088206
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "peak_avg_flow": 30.406302977613564,
+      "non_peak_avg_flow": 15.622461439137696
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "peak_avg_flow": 33.89367161955217,
+      "non_peak_avg_flow": 16.149522424967053
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "peak_avg_flow": 29.587370998775583,
+      "non_peak_avg_flow": 14.879133183100189
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "peak_avg_flow": 30.53261107943331,
+      "non_peak_avg_flow": 15.487647907647908
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "peak_avg_flow": 33.38481034045789,
+      "non_peak_avg_flow": 16.964802685893556
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "peak_avg_flow": 31.220823498557568,
+      "non_peak_avg_flow": 15.552839049380959
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "peak_avg_flow": 27.702504297728012,
+      "non_peak_avg_flow": 14.564137543070107
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "peak_avg_flow": 25.504529849322907,
+      "non_peak_avg_flow": 12.771407213077758
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "peak_avg_flow": 30.937957248538847,
+      "non_peak_avg_flow": 16.93189964157706
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "peak_avg_flow": 25.587440856263495,
+      "non_peak_avg_flow": 14.09471505152091
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "peak_avg_flow": 23.51796087729698,
+      "non_peak_avg_flow": 14.357968261506194
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "peak_avg_flow": 29.05239898989899,
+      "non_peak_avg_flow": 16.044545212056548
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "peak_avg_flow": 28.680382395700253,
+      "non_peak_avg_flow": 16.59961543047937
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "peak_avg_flow": 30.301155404391537,
+      "non_peak_avg_flow": 17.432601519366884
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "peak_avg_flow": 30.908417102885995,
+      "non_peak_avg_flow": 17.597757156155456
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "peak_avg_flow": 30.408839325980896,
+      "non_peak_avg_flow": 17.554856335118384
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "peak_avg_flow": 31.226458129683937,
+      "non_peak_avg_flow": 18.082608695652173
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "peak_avg_flow": 30.16696127946128,
+      "non_peak_avg_flow": 17.54711314452522
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "peak_avg_flow": 31.65633917651855,
+      "non_peak_avg_flow": 17.949856558212893
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "peak_avg_flow": 32.32724034495688,
+      "non_peak_avg_flow": 18.68281897023205
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "peak_avg_flow": 28.774724929267524,
+      "non_peak_avg_flow": 17.141525148289592
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "peak_avg_flow": 29.24097900339466,
+      "non_peak_avg_flow": 17.347060501895356
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "peak_avg_flow": 30.19297026262225,
+      "non_peak_avg_flow": 16.937401580941394
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "peak_avg_flow": 33.88153081324454,
+      "non_peak_avg_flow": 19.93690213650602
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "peak_avg_flow": 32.79926723150904,
+      "non_peak_avg_flow": 19.140420762461567
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "peak_avg_flow": 34.8112922705314,
+      "non_peak_avg_flow": 19.841078534181833
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "peak_avg_flow": 35.976304713804716,
+      "non_peak_avg_flow": 20.928648633068644
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "peak_avg_flow": 25.88294256079491,
+      "non_peak_avg_flow": 14.704162061543832
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "peak_avg_flow": 27.86034255599473,
+      "non_peak_avg_flow": 16.797088994130448
+    }
+  ],
+  "CHT": [
+    {
+      "year": 2023,
+      "month": 1,
+      "peak_avg_flow": 48.69801113762927,
+      "non_peak_avg_flow": 42.133402249004085
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "peak_avg_flow": 43.85486056629342,
+      "non_peak_avg_flow": 35.58767919967451
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "peak_avg_flow": 44.440044411547,
+      "non_peak_avg_flow": 37.85696636285228
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "peak_avg_flow": 51.56043737574553,
+      "non_peak_avg_flow": 41.875068903931385
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "peak_avg_flow": 50.77667350602719,
+      "non_peak_avg_flow": 41.68255866088776
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "peak_avg_flow": 43.707307253573106,
+      "non_peak_avg_flow": 36.649071228117066
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "peak_avg_flow": 47.90564979671947,
+      "non_peak_avg_flow": 38.3984020337752
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "peak_avg_flow": 46.55535115958216,
+      "non_peak_avg_flow": 36.139838556505225
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "peak_avg_flow": 43.52035283059793,
+      "non_peak_avg_flow": 35.18815417097166
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "peak_avg_flow": 39.55117029308806,
+      "non_peak_avg_flow": 33.08597126247669
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "peak_avg_flow": 30.61223540358223,
+      "non_peak_avg_flow": 27.108081032947464
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "peak_avg_flow": 44.27870976541189,
+      "non_peak_avg_flow": 35.54751296002742
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "peak_avg_flow": 35.68313849243348,
+      "non_peak_avg_flow": 27.38161248816489
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "peak_avg_flow": 32.693682460515376,
+      "non_peak_avg_flow": 26.031131374006964
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "peak_avg_flow": 39.04642255892256,
+      "non_peak_avg_flow": 28.6163033867142
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "peak_avg_flow": 38.2725271879855,
+      "non_peak_avg_flow": 28.57547940807332
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "peak_avg_flow": 41.74094800784426,
+      "non_peak_avg_flow": 31.2983811417211
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "peak_avg_flow": 41.68114848673116,
+      "non_peak_avg_flow": 31.72522548317824
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "peak_avg_flow": 40.552370046214875,
+      "non_peak_avg_flow": 31.154121035897713
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "peak_avg_flow": 40.74873737373738,
+      "non_peak_avg_flow": 31.260369977996902
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "peak_avg_flow": 38.97750718755285,
+      "non_peak_avg_flow": 30.382635160840344
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "peak_avg_flow": 42.22429677945373,
+      "non_peak_avg_flow": 31.796843966807238
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "peak_avg_flow": 39.99260161078854,
+      "non_peak_avg_flow": 31.427819102387797
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "peak_avg_flow": 35.2524681775846,
+      "non_peak_avg_flow": 27.7379603111734
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "peak_avg_flow": 35.59445259042033,
+      "non_peak_avg_flow": 27.395325769413684
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "peak_avg_flow": 39.425135501355015,
+      "non_peak_avg_flow": 28.86620898601173
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "peak_avg_flow": 44.01705334961472,
+      "non_peak_avg_flow": 33.25341398717211
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "peak_avg_flow": 41.37706481682203,
+      "non_peak_avg_flow": 32.22249612110842
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "peak_avg_flow": 42.055065698478565,
+      "non_peak_avg_flow": 31.688434281123577
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "peak_avg_flow": 43.37148509850143,
+      "non_peak_avg_flow": 33.071637532244814
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "peak_avg_flow": 31.285975769197247,
+      "non_peak_avg_flow": 23.739500930665425
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "peak_avg_flow": 34.38939219239005,
+      "non_peak_avg_flow": 27.178137799882972
+    }
+  ],
+  "EHT": [
+    {
+      "year": 2023,
+      "month": 1,
+      "peak_avg_flow": 45.80280145135431,
+      "non_peak_avg_flow": 31.565750498601556
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "peak_avg_flow": 43.60652354801132,
+      "non_peak_avg_flow": 26.8161389400793
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "peak_avg_flow": 45.82524896687217,
+      "non_peak_avg_flow": 28.87492925863045
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "peak_avg_flow": 43.912946281806825,
+      "non_peak_avg_flow": 30.07918377427222
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "peak_avg_flow": 47.41962382445141,
+      "non_peak_avg_flow": 30.975545346739878
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "peak_avg_flow": 40.885365935579216,
+      "non_peak_avg_flow": 28.160764047747787
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "peak_avg_flow": 43.4938226135869,
+      "non_peak_avg_flow": 29.656352550123856
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "peak_avg_flow": 43.79154527798009,
+      "non_peak_avg_flow": 27.72071010683825
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "peak_avg_flow": 41.901940917582245,
+      "non_peak_avg_flow": 26.434499024242616
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "peak_avg_flow": 37.050224066390044,
+      "non_peak_avg_flow": 24.179264728503306
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "peak_avg_flow": 31.55720786899344,
+      "non_peak_avg_flow": 20.40929427346773
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "peak_avg_flow": 37.421248165839344,
+      "non_peak_avg_flow": 25.113263381751064
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "peak_avg_flow": 31.1011557772012,
+      "non_peak_avg_flow": 18.93985788918983
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "peak_avg_flow": 27.820425901781835,
+      "non_peak_avg_flow": 19.04553694438402
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "peak_avg_flow": 33.37722222222222,
+      "non_peak_avg_flow": 20.348344670735095
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "peak_avg_flow": 33.94044864378455,
+      "non_peak_avg_flow": 21.084181050513006
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "peak_avg_flow": 35.65525259723212,
+      "non_peak_avg_flow": 22.428779146899313
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "peak_avg_flow": 36.559125698131425,
+      "non_peak_avg_flow": 23.05835020782266
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "peak_avg_flow": 35.69017487692168,
+      "non_peak_avg_flow": 22.566960369986443
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "peak_avg_flow": 36.61550179211469,
+      "non_peak_avg_flow": 22.71340460936021
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "peak_avg_flow": 36.467654320987656,
+      "non_peak_avg_flow": 22.730950150793078
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "peak_avg_flow": 38.223916292974586,
+      "non_peak_avg_flow": 22.711769104232093
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "peak_avg_flow": 37.15733882030178,
+      "non_peak_avg_flow": 23.0703678239945
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "peak_avg_flow": 31.503366612491295,
+      "non_peak_avg_flow": 20.047166438233717
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "peak_avg_flow": 32.746385902031065,
+      "non_peak_avg_flow": 20.572480446370747
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "peak_avg_flow": 35.06657515442691,
+      "non_peak_avg_flow": 20.52184499314129
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "peak_avg_flow": 40.71627260083449,
+      "non_peak_avg_flow": 24.659746382032647
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "peak_avg_flow": 37.54284390921723,
+      "non_peak_avg_flow": 23.417761798495743
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "peak_avg_flow": 39.75687606112054,
+      "non_peak_avg_flow": 23.93686528310817
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "peak_avg_flow": 40.80925480027165,
+      "non_peak_avg_flow": 24.929434397031933
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "peak_avg_flow": 28.81463367855773,
+      "non_peak_avg_flow": 17.72457554816142
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "peak_avg_flow": 30.532971014492755,
+      "non_peak_avg_flow": 19.843437797535234
+    }
+  ]
+}

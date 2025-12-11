@@ -1,0 +1,33 @@
+{
+  "total_records": 11695701,
+  "date_range": {
+    "start": "2022-11-30",
+    "end": "2025-08-31"
+  },
+  "detectors": 45,
+  "tunnels": {
+    "EHT": 4806877,
+    "CHT": 3686634,
+    "WHT": 3202190
+  },
+  "feature_columns": [
+    "speed_mean",
+    "speed_min",
+    "speed_max",
+    "speed_std",
+    "occupancy_mean",
+    "occupancy_max",
+    "volume_total"
+  ],
+  "categorical_columns": [
+    "detector_id",
+    "tunnel",
+    "direction"
+  ],
+  "temporal_columns": [
+    "hour",
+    "weekday",
+    "is_weekend",
+    "is_peak"
+  ]
+}

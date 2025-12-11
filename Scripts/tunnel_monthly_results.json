@@ -1,0 +1,788 @@
+{
+  "WHT": {
+    "monthly_data": [
+      {
+        "year": 2023,
+        "month": 1,
+        "avg_speed": 74.26042147958269,
+        "min_speed": 5.0,
+        "avg_volume": 29.438041288226422,
+        "congestion_events": 355
+      },
+      {
+        "year": 2023,
+        "month": 2,
+        "avg_speed": 71.55859591565033,
+        "min_speed": 0.0,
+        "avg_volume": 30.710798088581413,
+        "congestion_events": 6502
+      },
+      {
+        "year": 2023,
+        "month": 3,
+        "avg_speed": 72.11699037637582,
+        "min_speed": 0.0,
+        "avg_volume": 33.566796150550324,
+        "congestion_events": 3355
+      },
+      {
+        "year": 2023,
+        "month": 4,
+        "avg_speed": 72.94809446044881,
+        "min_speed": 0.0,
+        "avg_volume": 32.52434907062515,
+        "congestion_events": 2198
+      },
+      {
+        "year": 2023,
+        "month": 5,
+        "avg_speed": 72.1489182825575,
+        "min_speed": 0.0,
+        "avg_volume": 36.50877135769616,
+        "congestion_events": 4558
+      },
+      {
+        "year": 2023,
+        "month": 6,
+        "avg_speed": 71.01393498846807,
+        "min_speed": 0.0,
+        "avg_volume": 32.51319611643334,
+        "congestion_events": 6203
+      },
+      {
+        "year": 2023,
+        "month": 7,
+        "avg_speed": 71.98884972853594,
+        "min_speed": 0.0,
+        "avg_volume": 33.29837351614981,
+        "congestion_events": 1349
+      },
+      {
+        "year": 2023,
+        "month": 8,
+        "avg_speed": 68.97493987653176,
+        "min_speed": 0.0,
+        "avg_volume": 32.23134628028789,
+        "congestion_events": 9509
+      },
+      {
+        "year": 2023,
+        "month": 9,
+        "avg_speed": 66.3394137616387,
+        "min_speed": 0.0,
+        "avg_volume": 29.484160347890843,
+        "congestion_events": 20119
+      },
+      {
+        "year": 2023,
+        "month": 10,
+        "avg_speed": 66.4880787469894,
+        "min_speed": 0.0,
+        "avg_volume": 26.190422407388017,
+        "congestion_events": 15702
+      },
+      {
+        "year": 2023,
+        "month": 11,
+        "avg_speed": 67.58773819427938,
+        "min_speed": 0.0,
+        "avg_volume": 24.41966266539894,
+        "congestion_events": 11269
+      },
+      {
+        "year": 2023,
+        "month": 12,
+        "avg_speed": 72.00221702243354,
+        "min_speed": 3.3,
+        "avg_volume": 28.74326982978423,
+        "congestion_events": 9112
+      },
+      {
+        "year": 2024,
+        "month": 1,
+        "avg_speed": 69.76053932422026,
+        "min_speed": 2.8,
+        "avg_volume": 23.714557662687717,
+        "congestion_events": 16199
+      },
+      {
+        "year": 2024,
+        "month": 2,
+        "avg_speed": 70.10699497630979,
+        "min_speed": 3.0,
+        "avg_volume": 22.007020125809596,
+        "congestion_events": 11173
+      },
+      {
+        "year": 2024,
+        "month": 3,
+        "avg_speed": 68.07859149029983,
+        "min_speed": 3.8,
+        "avg_volume": 28.94585758377425,
+        "congestion_events": 19904
+      },
+      {
+        "year": 2024,
+        "month": 4,
+        "avg_speed": 67.65756567093847,
+        "min_speed": 2.5,
+        "avg_volume": 28.22549409123248,
+        "congestion_events": 21815
+      },
+      {
+        "year": 2024,
+        "month": 5,
+        "avg_speed": 66.76908155933519,
+        "min_speed": 1.0,
+        "avg_volume": 30.1168111563898,
+        "congestion_events": 16812
+      },
+      {
+        "year": 2024,
+        "month": 6,
+        "avg_speed": 66.86885841094295,
+        "min_speed": 3.0,
+        "avg_volume": 31.287764357780365,
+        "congestion_events": 20698
+      },
+      {
+        "year": 2024,
+        "month": 7,
+        "avg_speed": 66.16029001194066,
+        "min_speed": 4.2,
+        "avg_volume": 30.658228745200113,
+        "congestion_events": 20914
+      },
+      {
+        "year": 2024,
+        "month": 8,
+        "avg_speed": 65.16247482505547,
+        "min_speed": 4.2,
+        "avg_volume": 30.678076463560334,
+        "congestion_events": 25678
+      },
+      {
+        "year": 2024,
+        "month": 9,
+        "avg_speed": 63.65103395061728,
+        "min_speed": 4.0,
+        "avg_volume": 30.237006172839507,
+        "congestion_events": 35365
+      },
+      {
+        "year": 2024,
+        "month": 10,
+        "avg_speed": 65.24134721332479,
+        "min_speed": 2.0,
+        "avg_volume": 31.99532564595345,
+        "congestion_events": 30964
+      },
+      {
+        "year": 2024,
+        "month": 11,
+        "avg_speed": 64.09770203805148,
+        "min_speed": 4.9,
+        "avg_volume": 33.42208576309124,
+        "congestion_events": 28398
+      },
+      {
+        "year": 2024,
+        "month": 12,
+        "avg_speed": 66.85230333400236,
+        "min_speed": 5.5,
+        "avg_volume": 29.315428932415138,
+        "congestion_events": 12845
+      },
+      {
+        "year": 2025,
+        "month": 1,
+        "avg_speed": 66.9693364340605,
+        "min_speed": 3.8,
+        "avg_volume": 29.170461812155235,
+        "congestion_events": 20666
+      },
+      {
+        "year": 2025,
+        "month": 2,
+        "avg_speed": 66.71494847950417,
+        "min_speed": 4.8,
+        "avg_volume": 29.31592362750827,
+        "congestion_events": 21786
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "avg_speed": 64.14521685791124,
+        "min_speed": 3.2,
+        "avg_volume": 34.26291629596397,
+        "congestion_events": 32011
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "avg_speed": 66.95066141867851,
+        "min_speed": 4.8,
+        "avg_volume": 34.39785553047404,
+        "congestion_events": 22599
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "avg_speed": 63.73092183609397,
+        "min_speed": 2.5,
+        "avg_volume": 37.52513216773123,
+        "congestion_events": 35661
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "avg_speed": 63.717118165784825,
+        "min_speed": 3.3,
+        "avg_volume": 36.501805555555556,
+        "congestion_events": 33654
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "avg_speed": 64.7293859288682,
+        "min_speed": 1.5,
+        "avg_volume": 25.93930055243574,
+        "congestion_events": 21530
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "avg_speed": 64.72582010582012,
+        "min_speed": 3.5,
+        "avg_volume": 27.780060961582702,
+        "congestion_events": 17516
+      }
+    ],
+    "pre_toll_avg": 70.61901606945766,
+    "post_toll_avg": 66.10450960158799
+  },
+  "CHT": {
+    "monthly_data": [
+      {
+        "year": 2023,
+        "month": 1,
+        "avg_speed": 28.88046056892696,
+        "min_speed": 0.0,
+        "avg_volume": 49.96667470369372,
+        "congestion_events": 106605
+      },
+      {
+        "year": 2023,
+        "month": 2,
+        "avg_speed": 22.388321719102017,
+        "min_speed": 0.0,
+        "avg_volume": 45.25868340346623,
+        "congestion_events": 149074
+      },
+      {
+        "year": 2023,
+        "month": 3,
+        "avg_speed": 21.280398559129527,
+        "min_speed": 0.0,
+        "avg_volume": 46.71028086469736,
+        "congestion_events": 149221
+      },
+      {
+        "year": 2023,
+        "month": 4,
+        "avg_speed": 29.267862657931676,
+        "min_speed": 0.0,
+        "avg_volume": 53.742516768054905,
+        "congestion_events": 120913
+      },
+      {
+        "year": 2023,
+        "month": 5,
+        "avg_speed": 23.791755804655796,
+        "min_speed": 0.0,
+        "avg_volume": 53.01995609734019,
+        "congestion_events": 160720
+      },
+      {
+        "year": 2023,
+        "month": 6,
+        "avg_speed": 22.30457389155756,
+        "min_speed": 0.0,
+        "avg_volume": 45.636804275491315,
+        "congestion_events": 156492
+      },
+      {
+        "year": 2023,
+        "month": 7,
+        "avg_speed": 29.09389498682267,
+        "min_speed": 0.0,
+        "avg_volume": 50.78408625461827,
+        "congestion_events": 108890
+      },
+      {
+        "year": 2023,
+        "month": 8,
+        "avg_speed": 27.93918694968675,
+        "min_speed": 1.0,
+        "avg_volume": 48.517950763178476,
+        "congestion_events": 124211
+      },
+      {
+        "year": 2023,
+        "month": 9,
+        "avg_speed": 26.798729639220912,
+        "min_speed": 0.0,
+        "avg_volume": 44.75055884064817,
+        "congestion_events": 124368
+      },
+      {
+        "year": 2023,
+        "month": 10,
+        "avg_speed": 25.883109416655188,
+        "min_speed": 0.0,
+        "avg_volume": 39.03275693020768,
+        "congestion_events": 134287
+      },
+      {
+        "year": 2023,
+        "month": 11,
+        "avg_speed": 21.57520325774723,
+        "min_speed": 0.0,
+        "avg_volume": 29.38244321669736,
+        "congestion_events": 135173
+      },
+      {
+        "year": 2023,
+        "month": 12,
+        "avg_speed": 39.06221173753782,
+        "min_speed": 1.0,
+        "avg_volume": 48.945723841376015,
+        "congestion_events": 69253
+      },
+      {
+        "year": 2024,
+        "month": 1,
+        "avg_speed": 39.181253664854104,
+        "min_speed": 3.5,
+        "avg_volume": 38.928947179697026,
+        "congestion_events": 54983
+      },
+      {
+        "year": 2024,
+        "month": 2,
+        "avg_speed": 43.28320757851466,
+        "min_speed": 3.0,
+        "avg_volume": 39.08206709241723,
+        "congestion_events": 47779
+      },
+      {
+        "year": 2024,
+        "month": 3,
+        "avg_speed": 39.411111385053694,
+        "min_speed": 0.0,
+        "avg_volume": 47.488666995397764,
+        "congestion_events": 88978
+      },
+      {
+        "year": 2024,
+        "month": 4,
+        "avg_speed": 38.24322478340713,
+        "min_speed": 3.5,
+        "avg_volume": 46.18989195705321,
+        "congestion_events": 95815
+      },
+      {
+        "year": 2024,
+        "month": 5,
+        "avg_speed": 37.60056372386378,
+        "min_speed": 2.5,
+        "avg_volume": 50.89796724461002,
+        "congestion_events": 82798
+      },
+      {
+        "year": 2024,
+        "month": 6,
+        "avg_speed": 38.10300764334912,
+        "min_speed": 0.0,
+        "avg_volume": 51.19216193437764,
+        "congestion_events": 88823
+      },
+      {
+        "year": 2024,
+        "month": 7,
+        "avg_speed": 38.652170809785815,
+        "min_speed": 3.5,
+        "avg_volume": 48.33882316595736,
+        "congestion_events": 93074
+      },
+      {
+        "year": 2024,
+        "month": 8,
+        "avg_speed": 36.84737863459948,
+        "min_speed": 3.5,
+        "avg_volume": 48.23660685881529,
+        "congestion_events": 111360
+      },
+      {
+        "year": 2024,
+        "month": 9,
+        "avg_speed": 34.462509554840665,
+        "min_speed": 0.0,
+        "avg_volume": 46.37374687233633,
+        "congestion_events": 125808
+      },
+      {
+        "year": 2024,
+        "month": 10,
+        "avg_speed": 35.373974580093936,
+        "min_speed": 4.6,
+        "avg_volume": 50.31254544007217,
+        "congestion_events": 120902
+      },
+      {
+        "year": 2024,
+        "month": 11,
+        "avg_speed": 32.61644383356241,
+        "min_speed": 0.0,
+        "avg_volume": 48.31793260454159,
+        "congestion_events": 123497
+      },
+      {
+        "year": 2024,
+        "month": 12,
+        "avg_speed": 37.67973337758154,
+        "min_speed": 3.8,
+        "avg_volume": 41.52339016799479,
+        "congestion_events": 72959
+      },
+      {
+        "year": 2025,
+        "month": 1,
+        "avg_speed": 37.18238398973511,
+        "min_speed": 0.0,
+        "avg_volume": 42.19806313757927,
+        "congestion_events": 117260
+      },
+      {
+        "year": 2025,
+        "month": 2,
+        "avg_speed": 36.32190488708627,
+        "min_speed": 3.8,
+        "avg_volume": 45.98346039256923,
+        "congestion_events": 99777
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "avg_speed": 33.71449663031592,
+        "min_speed": 2.7,
+        "avg_volume": 51.4292010052868,
+        "congestion_events": 129849
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "avg_speed": 38.68168954397861,
+        "min_speed": 3.6,
+        "avg_volume": 48.01787433241375,
+        "congestion_events": 97125
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "avg_speed": 34.64015111432115,
+        "min_speed": 3.5,
+        "avg_volume": 49.567664110768646,
+        "congestion_events": 124354
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "avg_speed": 33.69745959378707,
+        "min_speed": 3.5,
+        "avg_volume": 50.610116691005835,
+        "congestion_events": 129263
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "avg_speed": 36.85000368758758,
+        "min_speed": 0.0,
+        "avg_volume": 35.618601326396885,
+        "congestion_events": 104166
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "avg_speed": 35.74278852339494,
+        "min_speed": 0.0,
+        "avg_volume": 39.142917899672625,
+        "congestion_events": 92046
+      }
+    ],
+    "pre_toll_avg": 26.52214243241451,
+    "post_toll_avg": 36.91427287698565
+  },
+  "EHT": {
+    "monthly_data": [
+      {
+        "year": 2023,
+        "month": 1,
+        "avg_speed": 63.25030013253477,
+        "min_speed": 0.0,
+        "avg_volume": 57.60628114147667,
+        "congestion_events": 16598
+      },
+      {
+        "year": 2023,
+        "month": 2,
+        "avg_speed": 60.64748280804599,
+        "min_speed": 0.0,
+        "avg_volume": 54.61430434992672,
+        "congestion_events": 31780
+      },
+      {
+        "year": 2023,
+        "month": 3,
+        "avg_speed": 59.282925940537645,
+        "min_speed": 0.0,
+        "avg_volume": 57.09879891727214,
+        "congestion_events": 38269
+      },
+      {
+        "year": 2023,
+        "month": 4,
+        "avg_speed": 63.75877222336743,
+        "min_speed": 0.0,
+        "avg_volume": 53.31848786064031,
+        "congestion_events": 21476
+      },
+      {
+        "year": 2023,
+        "month": 5,
+        "avg_speed": 61.49163688458146,
+        "min_speed": 0.0,
+        "avg_volume": 57.110730727464606,
+        "congestion_events": 32287
+      },
+      {
+        "year": 2023,
+        "month": 6,
+        "avg_speed": 59.540876797069295,
+        "min_speed": 0.0,
+        "avg_volume": 51.60949954893321,
+        "congestion_events": 37386
+      },
+      {
+        "year": 2023,
+        "month": 7,
+        "avg_speed": 62.8449653444449,
+        "min_speed": 0.0,
+        "avg_volume": 53.66272315045549,
+        "congestion_events": 22088
+      },
+      {
+        "year": 2023,
+        "month": 8,
+        "avg_speed": 63.2333614790449,
+        "min_speed": 0.0,
+        "avg_volume": 56.669738220407844,
+        "congestion_events": 19505
+      },
+      {
+        "year": 2023,
+        "month": 9,
+        "avg_speed": 57.94681747389384,
+        "min_speed": 0.0,
+        "avg_volume": 54.180205274848724,
+        "congestion_events": 36408
+      },
+      {
+        "year": 2023,
+        "month": 10,
+        "avg_speed": 62.02104482737508,
+        "min_speed": 0.0,
+        "avg_volume": 48.01634273149097,
+        "congestion_events": 17338
+      },
+      {
+        "year": 2023,
+        "month": 11,
+        "avg_speed": 61.0750741540506,
+        "min_speed": 0.0,
+        "avg_volume": 38.57641426605287,
+        "congestion_events": 24057
+      },
+      {
+        "year": 2023,
+        "month": 12,
+        "avg_speed": 66.19044333960562,
+        "min_speed": 0.0,
+        "avg_volume": 49.23564302707972,
+        "congestion_events": 10460
+      },
+      {
+        "year": 2024,
+        "month": 1,
+        "avg_speed": 65.85436077152949,
+        "min_speed": 2.5,
+        "avg_volume": 42.460516164085846,
+        "congestion_events": 5549
+      },
+      {
+        "year": 2024,
+        "month": 2,
+        "avg_speed": 68.48155780796569,
+        "min_speed": 4.3,
+        "avg_volume": 37.33283214871515,
+        "congestion_events": 1629
+      },
+      {
+        "year": 2024,
+        "month": 3,
+        "avg_speed": 68.31977100756671,
+        "min_speed": 4.8,
+        "avg_volume": 45.82546545201115,
+        "congestion_events": 2235
+      },
+      {
+        "year": 2024,
+        "month": 4,
+        "avg_speed": 67.77511889635143,
+        "min_speed": 5.8,
+        "avg_volume": 48.134999870342035,
+        "congestion_events": 2299
+      },
+      {
+        "year": 2024,
+        "month": 5,
+        "avg_speed": 66.57258672414471,
+        "min_speed": 6.6,
+        "avg_volume": 49.50305604412571,
+        "congestion_events": 2111
+      },
+      {
+        "year": 2024,
+        "month": 6,
+        "avg_speed": 67.52142052363263,
+        "min_speed": 7.1,
+        "avg_volume": 51.21861439264639,
+        "congestion_events": 1501
+      },
+      {
+        "year": 2024,
+        "month": 7,
+        "avg_speed": 66.2489498066299,
+        "min_speed": 4.5,
+        "avg_volume": 48.48650795778269,
+        "congestion_events": 6643
+      },
+      {
+        "year": 2024,
+        "month": 8,
+        "avg_speed": 66.91574290862143,
+        "min_speed": 7.0,
+        "avg_volume": 47.88654276024203,
+        "congestion_events": 3845
+      },
+      {
+        "year": 2024,
+        "month": 9,
+        "avg_speed": 63.771762495021896,
+        "min_speed": 3.2,
+        "avg_volume": 48.02496266427718,
+        "congestion_events": 17157
+      },
+      {
+        "year": 2024,
+        "month": 10,
+        "avg_speed": 65.3463440860215,
+        "min_speed": 4.5,
+        "avg_volume": 50.877711075751,
+        "congestion_events": 10422
+      },
+      {
+        "year": 2024,
+        "month": 11,
+        "avg_speed": 64.2146958936236,
+        "min_speed": 3.5,
+        "avg_volume": 48.60880459312359,
+        "congestion_events": 11055
+      },
+      {
+        "year": 2024,
+        "month": 12,
+        "avg_speed": 66.82620288377184,
+        "min_speed": 4.5,
+        "avg_volume": 38.930428816723776,
+        "congestion_events": 5849
+      },
+      {
+        "year": 2025,
+        "month": 1,
+        "avg_speed": 66.71848864994027,
+        "min_speed": 4.8,
+        "avg_volume": 41.63702932901684,
+        "congestion_events": 6930
+      },
+      {
+        "year": 2025,
+        "month": 2,
+        "avg_speed": 67.21773677627866,
+        "min_speed": 3.7,
+        "avg_volume": 46.760924304640895,
+        "congestion_events": 8029
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "avg_speed": 66.67079034717861,
+        "min_speed": 3.1,
+        "avg_volume": 55.489055351215576,
+        "congestion_events": 8379
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "avg_speed": 67.63203344838062,
+        "min_speed": 4.5,
+        "avg_volume": 50.63423428807642,
+        "congestion_events": 6456
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "avg_speed": 65.68042682213421,
+        "min_speed": 3.6,
+        "avg_volume": 54.12245807330109,
+        "congestion_events": 12623
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "avg_speed": 65.64880352519418,
+        "min_speed": 2.0,
+        "avg_volume": 57.54086835291775,
+        "congestion_events": 12009
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "avg_speed": 65.80082749873684,
+        "min_speed": 2.5,
+        "avg_volume": 38.1692608709102,
+        "congestion_events": 7334
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "avg_speed": 65.26556542517272,
+        "min_speed": 3.3,
+        "avg_volume": 40.141995870344395,
+        "congestion_events": 7966
+      }
+    ],
+    "pre_toll_avg": 61.77364178371263,
+    "post_toll_avg": 66.42415931489485
+  }
+}

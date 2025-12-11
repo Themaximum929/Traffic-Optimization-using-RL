@@ -1,0 +1,543 @@
+{
+  "analysis_period": {
+    "start": "2022-12-01",
+    "end": "2025-08-31",
+    "toll_implementation": "2023-12-17"
+  },
+  "congestion_events_overall": {
+    "AID01108": 12407,
+    "AID01109": 21140,
+    "AID01110": 24426,
+    "AID01208": 199,
+    "AID01209": 1287,
+    "AID01211": 11335,
+    "AID01212": 11472,
+    "AID01213": 31250,
+    "AID02205": 581,
+    "AID02206": 739,
+    "AID02207": 1600,
+    "AID02208": 1935,
+    "AID02209": 2369,
+    "AID02210": 3270,
+    "AID02211": 6873,
+    "AID02212": 583,
+    "AID02213": 1118,
+    "AID02214": 1877,
+    "AID03103": 6214,
+    "AID03204": 1351,
+    "AID03205": 2067,
+    "AID03206": 2561,
+    "AID03207": 4420,
+    "AID03208": 5867,
+    "AID03209": 4688,
+    "AID03210": 2008,
+    "AID03211": 7533,
+    "AID04106": 1723,
+    "AID04107": 3018,
+    "AID04110": 6701,
+    "AID04210": 487,
+    "AID04212": 1295,
+    "AID04218": 3421,
+    "AID04219": 5358,
+    "AID05109": 25055,
+    "AID05225": 7865,
+    "AID05226": 11403,
+    "TDSIEC10002": 2621,
+    "TDSIEC10003": 8043,
+    "TDSIEC10004": 11053
+  },
+  "congestion_events_pre_toll": {
+    "AID01108": 6718,
+    "AID01109": 9916,
+    "AID01110": 11252,
+    "AID01208": 58,
+    "AID01209": 550,
+    "AID01211": 4259,
+    "AID01212": 4770,
+    "AID01213": 14122,
+    "AID02205": 189,
+    "AID02206": 277,
+    "AID02207": 685,
+    "AID02208": 835,
+    "AID02209": 1171,
+    "AID02210": 1475,
+    "AID02211": 3028,
+    "AID02212": 222,
+    "AID02213": 306,
+    "AID02214": 704,
+    "AID03103": 850,
+    "AID03204": 391,
+    "AID03205": 581,
+    "AID03206": 627,
+    "AID03207": 1429,
+    "AID03208": 2572,
+    "AID03209": 2125,
+    "AID03210": 80,
+    "AID03211": 743,
+    "AID04106": 380,
+    "AID04107": 770,
+    "AID04110": 4935,
+    "AID04210": 278,
+    "AID04212": 671,
+    "AID04218": 358,
+    "AID04219": 634,
+    "AID05109": 11772,
+    "AID05225": 4631,
+    "AID05226": 5872
+  },
+  "congestion_events_post_toll": {
+    "AID01108": 5689,
+    "AID01109": 11224,
+    "AID01110": 13174,
+    "AID01208": 141,
+    "AID01209": 737,
+    "AID01211": 7076,
+    "AID01212": 6702,
+    "AID01213": 17128,
+    "AID02205": 392,
+    "AID02206": 462,
+    "AID02207": 915,
+    "AID02208": 1100,
+    "AID02209": 1198,
+    "AID02210": 1795,
+    "AID02211": 3845,
+    "AID02212": 361,
+    "AID02213": 812,
+    "AID02214": 1173,
+    "AID03103": 5364,
+    "AID03204": 960,
+    "AID03205": 1486,
+    "AID03206": 1934,
+    "AID03207": 2991,
+    "AID03208": 3295,
+    "AID03209": 2563,
+    "AID03210": 1928,
+    "AID03211": 6790,
+    "AID04106": 1343,
+    "AID04107": 2248,
+    "AID04110": 1766,
+    "AID04210": 209,
+    "AID04212": 624,
+    "AID04218": 3063,
+    "AID04219": 4724,
+    "AID05109": 13283,
+    "AID05225": 3234,
+    "AID05226": 5531,
+    "TDSIEC10002": 2621,
+    "TDSIEC10003": 8043,
+    "TDSIEC10004": 11053
+  },
+  "congestion_reduction_by_detector": {
+    "AID02214": {
+      "pre_toll": 704,
+      "post_toll": 1173,
+      "reduction": -469,
+      "reduction_percent": -66.61931818181817
+    },
+    "AID02213": {
+      "pre_toll": 306,
+      "post_toll": 812,
+      "reduction": -506,
+      "reduction_percent": -165.359477124183
+    },
+    "AID01213": {
+      "pre_toll": 14122,
+      "post_toll": 17128,
+      "reduction": -3006,
+      "reduction_percent": -21.285936836142188
+    },
+    "AID02208": {
+      "pre_toll": 835,
+      "post_toll": 1100,
+      "reduction": -265,
+      "reduction_percent": -31.736526946107784
+    },
+    "AID03209": {
+      "pre_toll": 2125,
+      "post_toll": 2563,
+      "reduction": -438,
+      "reduction_percent": -20.61176470588235
+    },
+    "AID03208": {
+      "pre_toll": 2572,
+      "post_toll": 3295,
+      "reduction": -723,
+      "reduction_percent": -28.1104199066874
+    },
+    "AID04110": {
+      "pre_toll": 4935,
+      "post_toll": 1766,
+      "reduction": 3169,
+      "reduction_percent": 64.21479229989868
+    },
+    "AID03204": {
+      "pre_toll": 391,
+      "post_toll": 960,
+      "reduction": -569,
+      "reduction_percent": -145.52429667519183
+    },
+    "AID04210": {
+      "pre_toll": 278,
+      "post_toll": 209,
+      "reduction": 69,
+      "reduction_percent": 24.820143884892087
+    },
+    "AID01110": {
+      "pre_toll": 11252,
+      "post_toll": 13174,
+      "reduction": -1922,
+      "reduction_percent": -17.08140774973338
+    },
+    "AID04218": {
+      "pre_toll": 358,
+      "post_toll": 3063,
+      "reduction": -2705,
+      "reduction_percent": -755.586592178771
+    },
+    "AID04212": {
+      "pre_toll": 671,
+      "post_toll": 624,
+      "reduction": 47,
+      "reduction_percent": 7.004470938897168
+    },
+    "AID01211": {
+      "pre_toll": 4259,
+      "post_toll": 7076,
+      "reduction": -2817,
+      "reduction_percent": -66.14228692181263
+    },
+    "AID02206": {
+      "pre_toll": 277,
+      "post_toll": 462,
+      "reduction": -185,
+      "reduction_percent": -66.78700361010831
+    },
+    "AID02211": {
+      "pre_toll": 3028,
+      "post_toll": 3845,
+      "reduction": -817,
+      "reduction_percent": -26.981505944517835
+    },
+    "AID02212": {
+      "pre_toll": 222,
+      "post_toll": 361,
+      "reduction": -139,
+      "reduction_percent": -62.612612612612615
+    },
+    "AID03206": {
+      "pre_toll": 627,
+      "post_toll": 1934,
+      "reduction": -1307,
+      "reduction_percent": -208.45295055821373
+    },
+    "AID04106": {
+      "pre_toll": 380,
+      "post_toll": 1343,
+      "reduction": -963,
+      "reduction_percent": -253.42105263157896
+    },
+    "AID03103": {
+      "pre_toll": 850,
+      "post_toll": 5364,
+      "reduction": -4514,
+      "reduction_percent": -531.0588235294117
+    },
+    "AID02207": {
+      "pre_toll": 685,
+      "post_toll": 915,
+      "reduction": -230,
+      "reduction_percent": -33.57664233576642
+    },
+    "AID03210": {
+      "pre_toll": 80,
+      "post_toll": 1928,
+      "reduction": -1848,
+      "reduction_percent": -2310.0
+    },
+    "AID01208": {
+      "pre_toll": 58,
+      "post_toll": 141,
+      "reduction": -83,
+      "reduction_percent": -143.10344827586206
+    },
+    "AID02205": {
+      "pre_toll": 189,
+      "post_toll": 392,
+      "reduction": -203,
+      "reduction_percent": -107.40740740740742
+    },
+    "AID02210": {
+      "pre_toll": 1475,
+      "post_toll": 1795,
+      "reduction": -320,
+      "reduction_percent": -21.694915254237287
+    },
+    "AID05226": {
+      "pre_toll": 5872,
+      "post_toll": 5531,
+      "reduction": 341,
+      "reduction_percent": 5.8072207084468666
+    },
+    "TDSIEC10002": {
+      "pre_toll": 0,
+      "post_toll": 2621,
+      "reduction": -2621,
+      "reduction_percent": 0
+    },
+    "TDSIEC10003": {
+      "pre_toll": 0,
+      "post_toll": 8043,
+      "reduction": -8043,
+      "reduction_percent": 0
+    },
+    "AID05225": {
+      "pre_toll": 4631,
+      "post_toll": 3234,
+      "reduction": 1397,
+      "reduction_percent": 30.16627078384798
+    },
+    "AID03205": {
+      "pre_toll": 581,
+      "post_toll": 1486,
+      "reduction": -905,
+      "reduction_percent": -155.7659208261618
+    },
+    "AID02209": {
+      "pre_toll": 1171,
+      "post_toll": 1198,
+      "reduction": -27,
+      "reduction_percent": -2.305721605465414
+    },
+    "AID03207": {
+      "pre_toll": 1429,
+      "post_toll": 2991,
+      "reduction": -1562,
+      "reduction_percent": -109.30720783764872
+    },
+    "AID05109": {
+      "pre_toll": 11772,
+      "post_toll": 13283,
+      "reduction": -1511,
+      "reduction_percent": -12.83554196398233
+    },
+    "AID01109": {
+      "pre_toll": 9916,
+      "post_toll": 11224,
+      "reduction": -1308,
+      "reduction_percent": -13.19080274304155
+    },
+    "AID03211": {
+      "pre_toll": 743,
+      "post_toll": 6790,
+      "reduction": -6047,
+      "reduction_percent": -813.8627187079408
+    },
+    "TDSIEC10004": {
+      "pre_toll": 0,
+      "post_toll": 11053,
+      "reduction": -11053,
+      "reduction_percent": 0
+    },
+    "AID01209": {
+      "pre_toll": 550,
+      "post_toll": 737,
+      "reduction": -187,
+      "reduction_percent": -34.0
+    },
+    "AID04107": {
+      "pre_toll": 770,
+      "post_toll": 2248,
+      "reduction": -1478,
+      "reduction_percent": -191.94805194805195
+    },
+    "AID01212": {
+      "pre_toll": 4770,
+      "post_toll": 6702,
+      "reduction": -1932,
+      "reduction_percent": -40.503144654088054
+    },
+    "AID01108": {
+      "pre_toll": 6718,
+      "post_toll": 5689,
+      "reduction": 1029,
+      "reduction_percent": 15.317058648407263
+    },
+    "AID04219": {
+      "pre_toll": 634,
+      "post_toll": 4724,
+      "reduction": -4090,
+      "reduction_percent": -645.1104100946372
+    }
+  },
+  "weekday_propagation_depth": {
+    "pre_toll": {
+      "CHT_Northbound_Route1": {
+        "AID01109": 158,
+        "AID01108": 16,
+        "AID01110": 19
+      },
+      "CHT_Southbound_Route1": {
+        "AID01213": 244,
+        "AID01211": 2
+      },
+      "CHT_Southbound_Route2": {
+        "AID05226": 62,
+        "AID01213": 176,
+        "AID05225": 8
+      },
+      "CHT_Southbound_Route3": {
+        "AID05109": 228,
+        "AID01213": 18
+      },
+      "EHT_Northbound_Route2": {
+        "AID04110": 2
+      }
+    },
+    "post_toll": {
+      "WHT_Southbound_Kowloon": {
+        "AID03211": 1
+      },
+      "WHT_Northbound_Main": {
+        "AID04219": 1
+      },
+      "CHT_Northbound_Route1": {
+        "AID01110": 45,
+        "AID01109": 50
+      },
+      "CHT_Northbound_Route2": {
+        "TDSIEC10003": 74,
+        "TDSIEC10002": 8,
+        "TDSIEC10004": 29
+      },
+      "CHT_Southbound_Route1": {
+        "AID01213": 277
+      },
+      "CHT_Southbound_Route2": {
+        "AID01213": 267,
+        "AID05226": 9,
+        "AID05225": 1
+      },
+      "CHT_Southbound_Route3": {
+        "AID01213": 132,
+        "AID05109": 145
+      }
+    }
+  },
+  "route_summary": {
+    "WHT_Southbound_Kowloon": {
+      "detectors": [
+        "AID03204",
+        "AID03205",
+        "AID03206",
+        "AID03207",
+        "AID03208",
+        "AID03209",
+        "AID03210",
+        "AID03211"
+      ],
+      "tunnel_entrance": "AID03211",
+      "pre_toll_congestion_days": 0,
+      "post_toll_congestion_days": 1
+    },
+    "WHT_Northbound_Main": {
+      "detectors": [
+        "AID04218",
+        "AID04219",
+        "AID03103"
+      ],
+      "tunnel_entrance": "AID03103",
+      "pre_toll_congestion_days": 0,
+      "post_toll_congestion_days": 1
+    },
+    "CHT_Northbound_Route1": {
+      "detectors": [
+        "AID01108",
+        "AID01109",
+        "AID01110"
+      ],
+      "tunnel_entrance": "AID01110",
+      "pre_toll_congestion_days": 193,
+      "post_toll_congestion_days": 95
+    },
+    "CHT_Northbound_Route2": {
+      "detectors": [
+        "TDSIEC10002",
+        "TDSIEC10003",
+        "TDSIEC10004"
+      ],
+      "tunnel_entrance": "TDSIEC10004",
+      "pre_toll_congestion_days": 0,
+      "post_toll_congestion_days": 111
+    },
+    "CHT_Southbound_Route1": {
+      "detectors": [
+        "AID01208",
+        "AID01209",
+        "AID01211",
+        "AID01212",
+        "AID01213"
+      ],
+      "tunnel_entrance": "AID01213",
+      "pre_toll_congestion_days": 246,
+      "post_toll_congestion_days": 277
+    },
+    "CHT_Southbound_Route2": {
+      "detectors": [
+        "AID05224",
+        "AID05225",
+        "AID05226",
+        "AID01213"
+      ],
+      "tunnel_entrance": "AID01213",
+      "pre_toll_congestion_days": 246,
+      "post_toll_congestion_days": 277
+    },
+    "CHT_Southbound_Route3": {
+      "detectors": [
+        "AID05109",
+        "AID01213"
+      ],
+      "tunnel_entrance": "AID01213",
+      "pre_toll_congestion_days": 246,
+      "post_toll_congestion_days": 277
+    },
+    "EHT_Northbound_Route1": {
+      "detectors": [
+        "AID04210",
+        "AID04212"
+      ],
+      "tunnel_entrance": "AID04212",
+      "pre_toll_congestion_days": 0,
+      "post_toll_congestion_days": 0
+    },
+    "EHT_Northbound_Route2": {
+      "detectors": [
+        "AID04106",
+        "AID04107",
+        "AID04122",
+        "AID04110"
+      ],
+      "tunnel_entrance": "AID04110",
+      "pre_toll_congestion_days": 2,
+      "post_toll_congestion_days": 0
+    },
+    "EHT_Southbound_Main": {
+      "detectors": [
+        "AID02204",
+        "AID02205",
+        "AID02206",
+        "AID02207",
+        "AID02208",
+        "AID02209",
+        "AID02210",
+        "AID02211",
+        "AID02212",
+        "AID02213",
+        "AID02214"
+      ],
+      "tunnel_entrance": "AID02214",
+      "pre_toll_congestion_days": 0,
+      "post_toll_congestion_days": 0
+    }
+  }
+}

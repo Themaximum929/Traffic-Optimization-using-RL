@@ -1,0 +1,46 @@
+{
+  "analysis_summary": {
+    "data_source": "Normalized CSV with 42 available detectors",
+    "total_detectors": 42,
+    "analysis_period": "2022-12-01 to 2025-08-31",
+    "toll_implementation": "2023-12-17"
+  },
+  "pre_toll_metrics": {
+    "period": "Pre-toll",
+    "total_records": 1296137,
+    "peak_records": 966207,
+    "congested_events": 0,
+    "severe_events": 0,
+    "avg_peak_speed": -0.09233387383768432,
+    "avg_congested_speed": 0
+  },
+  "post_toll_metrics": {
+    "period": "Post-toll",
+    "total_records": 2399275,
+    "peak_records": 1794140,
+    "congested_events": 0,
+    "severe_events": 0,
+    "avg_peak_speed": -0.023195595485015718,
+    "avg_congested_speed": 0
+  },
+  "improvements": {
+    "speed_improvement_percent": 0,
+    "congestion_reduction_percent": 0
+  },
+  "detector_completeness": {
+    "expected_detectors": 46,
+    "available_detectors": 42,
+    "missing_detectors": [
+      "AID02112",
+      "AID02204",
+      "AID04122",
+      "AID05224"
+    ],
+    "missing_reasons": {
+      "AID02112": "Excluded - using AID02207 for inter-tunnel link",
+      "AID02204": "Not found in source data",
+      "AID04122": "Not found in source data",
+      "AID05224": "Not found in source data"
+    }
+  }
+}

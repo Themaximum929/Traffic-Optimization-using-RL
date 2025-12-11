@@ -1,0 +1,4457 @@
+{
+  "executive_summary": {
+    "data_foundation": "Analysis based on 1005 days of multi-detector data (Dec 2022 - Aug 2025)",
+    "analysis_period": "2022-12-01 to 2025-08-31"
+  },
+  "tunnel_groups": {
+    "WHT_tunnel": {
+      "detectors": [
+        "AID03101",
+        "AID03102",
+        "AID03103",
+        "AID03104",
+        "AID03106",
+        "AID03204",
+        "AID03205",
+        "AID03206",
+        "AID03207",
+        "AID03208",
+        "AID03209",
+        "AID03210",
+        "AID03211",
+        "AID04104",
+        "AID04218",
+        "AID04219",
+        "AID04220",
+        "AID04221"
+      ],
+      "analysis": {
+        "pre_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 73.80735407047848,
+            "min_speed": 5.0,
+            "avg_volume": 33.87169009945107,
+            "congestion_events": 5
+          },
+          "evening_peak": {
+            "avg_speed": 74.12320228238602,
+            "min_speed": 52.3,
+            "avg_volume": 27.81700275985845,
+            "congestion_events": 0
+          },
+          "combined": {
+            "avg_speed": 73.97420762876732,
+            "min_speed": 5.0,
+            "avg_volume": 30.67317230244945,
+            "congestion_events": 5
+          }
+        },
+        "post_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 73.01009782855311,
+            "min_speed": 10.2,
+            "avg_volume": 24.815914156445608,
+            "congestion_events": 11
+          },
+          "evening_peak": {
+            "avg_speed": 75.06094920172217,
+            "min_speed": 58.2,
+            "avg_volume": 25.022782990670528,
+            "congestion_events": 0
+          },
+          "combined": {
+            "avg_speed": 74.03219052209803,
+            "min_speed": 10.2,
+            "avg_volume": 24.91901237543391,
+            "congestion_events": 11
+          }
+        },
+        "quarterly_breakdown": {
+          "pre_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 73.80735407047848,
+              "min_speed": 5.0,
+              "avg_volume": 33.87169009945107,
+              "congestion_events": 5
+            },
+            "evening_peak": {
+              "avg_speed": 74.12320228238602,
+              "min_speed": 52.3,
+              "avg_volume": 27.81700275985845,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 73.97420762876732,
+              "min_speed": 5.0,
+              "avg_volume": 30.67317230244945,
+              "congestion_events": 5
+            }
+          },
+          "pre_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 72.34698672114403,
+              "min_speed": 5.1,
+              "avg_volume": 34.76283154293862,
+              "congestion_events": 10
+            },
+            "evening_peak": {
+              "avg_speed": 74.29760471984581,
+              "min_speed": 0.0,
+              "avg_volume": 26.82294338680828,
+              "congestion_events": 3
+            },
+            "combined": {
+              "avg_speed": 73.31681930833847,
+              "min_speed": 0.0,
+              "avg_volume": 30.815178913044228,
+              "congestion_events": 13
+            }
+          },
+          "pre_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 70.04528511281742,
+              "min_speed": 0.0,
+              "avg_volume": 38.92698947777292,
+              "congestion_events": 13
+            },
+            "evening_peak": {
+              "avg_speed": 74.24804380773425,
+              "min_speed": 51.0,
+              "avg_volume": 26.361331513725922,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 72.15860650367254,
+              "min_speed": 0.0,
+              "avg_volume": 32.608455463981514,
+              "congestion_events": 13
+            }
+          },
+          "pre_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 62.510280202673826,
+              "min_speed": 0.0,
+              "avg_volume": 25.843377998901165,
+              "congestion_events": 140
+            },
+            "evening_peak": {
+              "avg_speed": 69.05069097021256,
+              "min_speed": 0.0,
+              "avg_volume": 23.328082012574626,
+              "congestion_events": 21
+            },
+            "combined": {
+              "avg_speed": 65.71791076115487,
+              "min_speed": 0.0,
+              "avg_volume": 24.60979488675027,
+              "congestion_events": 161
+            }
+          },
+          "post_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 73.01009782855311,
+              "min_speed": 10.2,
+              "avg_volume": 24.815914156445608,
+              "congestion_events": 11
+            },
+            "evening_peak": {
+              "avg_speed": 75.06094920172217,
+              "min_speed": 58.2,
+              "avg_volume": 25.022782990670528,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 74.03219052209803,
+              "min_speed": 10.2,
+              "avg_volume": 24.91901237543391,
+              "congestion_events": 11
+            }
+          },
+          "post_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 63.193532568662526,
+              "min_speed": 2.5,
+              "avg_volume": 28.489789189378794,
+              "congestion_events": 212
+            },
+            "evening_peak": {
+              "avg_speed": 72.25423424030171,
+              "min_speed": 10.0,
+              "avg_volume": 26.425013469827586,
+              "congestion_events": 2
+            },
+            "combined": {
+              "avg_speed": 67.81627282879478,
+              "min_speed": 2.5,
+              "avg_volume": 27.436347392835668,
+              "congestion_events": 214
+            }
+          },
+          "post_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 61.128823412698424,
+              "min_speed": 4.5,
+              "avg_volume": 32.254966931216934,
+              "congestion_events": 205
+            },
+            "evening_peak": {
+              "avg_speed": 70.73356355829215,
+              "min_speed": 5.8,
+              "avg_volume": 30.11556482756758,
+              "congestion_events": 2
+            },
+            "combined": {
+              "avg_speed": 65.88171230405325,
+              "min_speed": 4.5,
+              "avg_volume": 31.196287535581124,
+              "congestion_events": 207
+            }
+          },
+          "post_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 61.37506084656084,
+              "min_speed": 2.0,
+              "avg_volume": 31.412936507936507,
+              "congestion_events": 248
+            },
+            "evening_peak": {
+              "avg_speed": 71.05803835978836,
+              "min_speed": 21.2,
+              "avg_volume": 30.067493386243385,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 66.21654960317461,
+              "min_speed": 2.0,
+              "avg_volume": 30.740214947089946,
+              "congestion_events": 248
+            }
+          },
+          "post_toll_q5": {
+            "morning_peak": {
+              "avg_speed": 60.784067926100846,
+              "min_speed": 5.3,
+              "avg_volume": 34.0512154465898,
+              "congestion_events": 233
+            },
+            "evening_peak": {
+              "avg_speed": 69.97211352077859,
+              "min_speed": 5.8,
+              "avg_volume": 27.467212837951926,
+              "congestion_events": 6
+            },
+            "combined": {
+              "avg_speed": 65.44228789793215,
+              "min_speed": 5.3,
+              "avg_volume": 30.713211501124842,
+              "congestion_events": 239
+            }
+          },
+          "post_toll_q6": {
+            "morning_peak": {
+              "avg_speed": 62.20514063752053,
+              "min_speed": 4.8,
+              "avg_volume": 35.9255184777737,
+              "congestion_events": 242
+            },
+            "evening_peak": {
+              "avg_speed": 70.94807853410103,
+              "min_speed": 50.5,
+              "avg_volume": 31.058322141403934,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 66.6228408541174,
+              "min_speed": 4.8,
+              "avg_volume": 33.46618334766717,
+              "congestion_events": 242
+            }
+          }
+        },
+        "improvements": {
+          "speed_change_percent": 0.07838258115815,
+          "volume_change_percent": -18.75958531539314,
+          "congestion_reduction": -6
+        }
+      },
+      "correlations": {}
+    },
+    "CHT_tunnel": {
+      "detectors": [
+        "AID01108",
+        "AID01109",
+        "AID01110",
+        "AID01111",
+        "AID01112",
+        "AID01212",
+        "AID01213",
+        "AID01214",
+        "AID05109",
+        "AID05110",
+        "AID05226",
+        "TDSIEC10001",
+        "TDSIEC10002",
+        "TDSIEC10003",
+        "TDSIEC10004",
+        "TDSIEC20002"
+      ],
+      "analysis": {
+        "pre_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 30.16507115135834,
+            "min_speed": 0.0,
+            "avg_volume": 45.867515839055294,
+            "congestion_events": 486
+          },
+          "evening_peak": {
+            "avg_speed": 23.948137218162515,
+            "min_speed": 0.0,
+            "avg_volume": 56.21051152332771,
+            "congestion_events": 643
+          },
+          "combined": {
+            "avg_speed": 26.962853673052486,
+            "min_speed": 0.0,
+            "avg_volume": 51.19498463864627,
+            "congestion_events": 1129
+          }
+        },
+        "post_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 52.26082296966271,
+            "min_speed": 5.0,
+            "avg_volume": 38.96179574147352,
+            "congestion_events": 84
+          },
+          "evening_peak": {
+            "avg_speed": 43.554399800467955,
+            "min_speed": 3.0,
+            "avg_volume": 46.70437188973479,
+            "congestion_events": 186
+          },
+          "combined": {
+            "avg_speed": 47.92601694764915,
+            "min_speed": 3.0,
+            "avg_volume": 42.816715845992825,
+            "congestion_events": 270
+          }
+        },
+        "quarterly_breakdown": {
+          "pre_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 30.16507115135834,
+              "min_speed": 0.0,
+              "avg_volume": 45.867515839055294,
+              "congestion_events": 486
+            },
+            "evening_peak": {
+              "avg_speed": 23.948137218162515,
+              "min_speed": 0.0,
+              "avg_volume": 56.21051152332771,
+              "congestion_events": 643
+            },
+            "combined": {
+              "avg_speed": 26.962853673052486,
+              "min_speed": 0.0,
+              "avg_volume": 51.19498463864627,
+              "congestion_events": 1129
+            }
+          },
+          "pre_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 36.56444405265632,
+              "min_speed": 0.0,
+              "avg_volume": 49.304842501175365,
+              "congestion_events": 428
+            },
+            "evening_peak": {
+              "avg_speed": 28.016524276377215,
+              "min_speed": 0.0,
+              "avg_volume": 58.38454715219421,
+              "congestion_events": 709
+            },
+            "combined": {
+              "avg_speed": 32.275466736940736,
+              "min_speed": 0.0,
+              "avg_volume": 53.860646521433594,
+              "congestion_events": 1137
+            }
+          },
+          "pre_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 36.16017114207808,
+              "min_speed": 0.0,
+              "avg_volume": 46.23932246836636,
+              "congestion_events": 387
+            },
+            "evening_peak": {
+              "avg_speed": 25.083932230679157,
+              "min_speed": 0.0,
+              "avg_volume": 55.014746779859486,
+              "congestion_events": 742
+            },
+            "combined": {
+              "avg_speed": 30.539751310601794,
+              "min_speed": 0.0,
+              "avg_volume": 50.69223913299127,
+              "congestion_events": 1129
+            }
+          },
+          "pre_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 27.945170609114697,
+              "min_speed": 0.0,
+              "avg_volume": 31.909669145270357,
+              "congestion_events": 627
+            },
+            "evening_peak": {
+              "avg_speed": 22.399989829775876,
+              "min_speed": 0.0,
+              "avg_volume": 38.39923214807846,
+              "congestion_events": 833
+            },
+            "combined": {
+              "avg_speed": 25.146482948894807,
+              "min_speed": 0.0,
+              "avg_volume": 35.18499246094126,
+              "congestion_events": 1460
+            }
+          },
+          "post_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 52.26082296966271,
+              "min_speed": 5.0,
+              "avg_volume": 38.96179574147352,
+              "congestion_events": 84
+            },
+            "evening_peak": {
+              "avg_speed": 43.554399800467955,
+              "min_speed": 3.0,
+              "avg_volume": 46.70437188973479,
+              "congestion_events": 186
+            },
+            "combined": {
+              "avg_speed": 47.92601694764915,
+              "min_speed": 3.0,
+              "avg_volume": 42.816715845992825,
+              "congestion_events": 270
+            }
+          },
+          "post_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 40.512211902304784,
+              "min_speed": 4.7,
+              "avg_volume": 41.202098383212935,
+              "congestion_events": 358
+            },
+            "evening_peak": {
+              "avg_speed": 35.011841207071065,
+              "min_speed": 5.0,
+              "avg_volume": 43.00418991125862,
+              "congestion_events": 709
+            },
+            "combined": {
+              "avg_speed": 37.70300970173477,
+              "min_speed": 4.7,
+              "avg_volume": 42.12247989324485,
+              "congestion_events": 1067
+            }
+          },
+          "post_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 42.2568779178338,
+              "min_speed": 3.8,
+              "avg_volume": 44.3670868347339,
+              "congestion_events": 326
+            },
+            "evening_peak": {
+              "avg_speed": 31.99635157348072,
+              "min_speed": 3.5,
+              "avg_volume": 49.33461181122996,
+              "congestion_events": 762
+            },
+            "combined": {
+              "avg_speed": 37.17881438862492,
+              "min_speed": 3.5,
+              "avg_volume": 46.82557741962107,
+              "congestion_events": 1088
+            }
+          },
+          "post_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 40.22923669467787,
+              "min_speed": 4.6,
+              "avg_volume": 44.63330999066293,
+              "congestion_events": 375
+            },
+            "evening_peak": {
+              "avg_speed": 31.29594070961718,
+              "min_speed": 4.8,
+              "avg_volume": 50.470576563958915,
+              "congestion_events": 886
+            },
+            "combined": {
+              "avg_speed": 35.762588702147525,
+              "min_speed": 4.6,
+              "avg_volume": 47.551943277310926,
+              "congestion_events": 1261
+            }
+          },
+          "post_toll_q5": {
+            "morning_peak": {
+              "avg_speed": 37.917808123249294,
+              "min_speed": 4.8,
+              "avg_volume": 43.70821661998133,
+              "congestion_events": 483
+            },
+            "evening_peak": {
+              "avg_speed": 29.512579365079365,
+              "min_speed": 0.0,
+              "avg_volume": 38.88427871148459,
+              "congestion_events": 959
+            },
+            "combined": {
+              "avg_speed": 33.71519374416433,
+              "min_speed": 0.0,
+              "avg_volume": 41.29624766573296,
+              "congestion_events": 1442
+            }
+          },
+          "post_toll_q6": {
+            "morning_peak": {
+              "avg_speed": 41.87254551820728,
+              "min_speed": 5.0,
+              "avg_volume": 42.50299953314659,
+              "congestion_events": 332
+            },
+            "evening_peak": {
+              "avg_speed": 35.83396991620013,
+              "min_speed": 4.2,
+              "avg_volume": 49.30509227334884,
+              "congestion_events": 682
+            },
+            "combined": {
+              "avg_speed": 38.85535590191601,
+              "min_speed": 4.2,
+              "avg_volume": 45.90168242418579,
+              "congestion_events": 1014
+            }
+          }
+        },
+        "improvements": {
+          "speed_change_percent": 77.74831080119647,
+          "volume_change_percent": -16.365409330211662,
+          "congestion_reduction": 859
+        }
+      },
+      "correlations": {}
+    },
+    "EHT_tunnel": {
+      "detectors": [
+        "AID02104",
+        "AID02209",
+        "AID02210",
+        "AID02211",
+        "AID02212",
+        "AID02213",
+        "AID02214",
+        "AID04106",
+        "AID04107",
+        "AID04109",
+        "AID04110",
+        "AID04111",
+        "AID04121",
+        "AID04210",
+        "AID04211",
+        "AID04212",
+        "AID04214",
+        "AID07226"
+      ],
+      "analysis": {
+        "pre_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 66.84259810419427,
+            "min_speed": 3.9,
+            "avg_volume": 51.60321886801891,
+            "congestion_events": 28
+          },
+          "evening_peak": {
+            "avg_speed": 58.28688421781064,
+            "min_speed": 0.0,
+            "avg_volume": 68.37042082954889,
+            "congestion_events": 182
+          },
+          "combined": {
+            "avg_speed": 62.25421513482169,
+            "min_speed": 0.0,
+            "avg_volume": 60.595378370542186,
+            "congestion_events": 210
+          }
+        },
+        "post_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 70.6076746132903,
+            "min_speed": 8.2,
+            "avg_volume": 36.392441531604234,
+            "congestion_events": 4
+          },
+          "evening_peak": {
+            "avg_speed": 65.57823447128652,
+            "min_speed": 10.5,
+            "avg_volume": 49.79278666212998,
+            "congestion_events": 10
+          },
+          "combined": {
+            "avg_speed": 68.09616383737087,
+            "min_speed": 8.2,
+            "avg_volume": 43.08406331178638,
+            "congestion_events": 14
+          }
+        },
+        "quarterly_breakdown": {
+          "pre_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 66.84259810419427,
+              "min_speed": 3.9,
+              "avg_volume": 51.60321886801891,
+              "congestion_events": 28
+            },
+            "evening_peak": {
+              "avg_speed": 58.28688421781064,
+              "min_speed": 0.0,
+              "avg_volume": 68.37042082954889,
+              "congestion_events": 182
+            },
+            "combined": {
+              "avg_speed": 62.25421513482169,
+              "min_speed": 0.0,
+              "avg_volume": 60.595378370542186,
+              "congestion_events": 210
+            }
+          },
+          "pre_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 67.95896157597033,
+              "min_speed": 3.0,
+              "avg_volume": 49.665277940315974,
+              "congestion_events": 16
+            },
+            "evening_peak": {
+              "avg_speed": 62.02228671594649,
+              "min_speed": 0.0,
+              "avg_volume": 52.816912238924445,
+              "congestion_events": 198
+            },
+            "combined": {
+              "avg_speed": 65.07680848757813,
+              "min_speed": 0.0,
+              "avg_volume": 51.19534194775949,
+              "congestion_events": 214
+            }
+          },
+          "pre_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 66.97096329650432,
+              "min_speed": 0.0,
+              "avg_volume": 55.49514866478115,
+              "congestion_events": 31
+            },
+            "evening_peak": {
+              "avg_speed": 56.980722818454495,
+              "min_speed": 0.0,
+              "avg_volume": 48.05260329073981,
+              "congestion_events": 302
+            },
+            "combined": {
+              "avg_speed": 62.1725363812379,
+              "min_speed": 0.0,
+              "avg_volume": 51.92040888555785,
+              "congestion_events": 333
+            }
+          },
+          "pre_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 64.82671918404577,
+              "min_speed": 0.0,
+              "avg_volume": 41.42211534474895,
+              "congestion_events": 51
+            },
+            "evening_peak": {
+              "avg_speed": 57.88513688095971,
+              "min_speed": 0.0,
+              "avg_volume": 46.14470272883069,
+              "congestion_events": 129
+            },
+            "combined": {
+              "avg_speed": 61.45677318883864,
+              "min_speed": 0.0,
+              "avg_volume": 43.71480075091731,
+              "congestion_events": 180
+            }
+          },
+          "post_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 70.6076746132903,
+              "min_speed": 8.2,
+              "avg_volume": 36.392441531604234,
+              "congestion_events": 4
+            },
+            "evening_peak": {
+              "avg_speed": 65.57823447128652,
+              "min_speed": 10.5,
+              "avg_volume": 49.79278666212998,
+              "congestion_events": 10
+            },
+            "combined": {
+              "avg_speed": 68.09616383737087,
+              "min_speed": 8.2,
+              "avg_volume": 43.08406331178638,
+              "congestion_events": 14
+            }
+          },
+          "post_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 70.48192243601838,
+              "min_speed": 15.7,
+              "avg_volume": 45.19119034144501,
+              "congestion_events": 3
+            },
+            "evening_peak": {
+              "avg_speed": 67.04367227891412,
+              "min_speed": 5.8,
+              "avg_volume": 48.87448562772259,
+              "congestion_events": 12
+            },
+            "combined": {
+              "avg_speed": 68.72667000115425,
+              "min_speed": 5.8,
+              "avg_volume": 47.071540148512945,
+              "congestion_events": 15
+            }
+          },
+          "post_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 67.78970865787896,
+              "min_speed": 8.5,
+              "avg_volume": 47.242780107849015,
+              "congestion_events": 30
+            },
+            "evening_peak": {
+              "avg_speed": 63.97457937144974,
+              "min_speed": 4.5,
+              "avg_volume": 54.35382193134107,
+              "congestion_events": 56
+            },
+            "combined": {
+              "avg_speed": 65.91079866812626,
+              "min_speed": 4.5,
+              "avg_volume": 50.744891443167305,
+              "congestion_events": 86
+            }
+          },
+          "post_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 69.55275761648745,
+              "min_speed": 6.0,
+              "avg_volume": 47.87155017921147,
+              "congestion_events": 13
+            },
+            "evening_peak": {
+              "avg_speed": 61.99496341099164,
+              "min_speed": 4.5,
+              "avg_volume": 50.839926821983276,
+              "congestion_events": 98
+            },
+            "combined": {
+              "avg_speed": 65.77386051373954,
+              "min_speed": 4.5,
+              "avg_volume": 49.35573850059737,
+              "congestion_events": 111
+            }
+          },
+          "post_toll_q5": {
+            "morning_peak": {
+              "avg_speed": 69.1910804958184,
+              "min_speed": 5.8,
+              "avg_volume": 43.804218936678616,
+              "congestion_events": 23
+            },
+            "evening_peak": {
+              "avg_speed": 64.23148222819594,
+              "min_speed": 4.8,
+              "avg_volume": 42.78879928315412,
+              "congestion_events": 48
+            },
+            "combined": {
+              "avg_speed": 66.71128136200717,
+              "min_speed": 4.8,
+              "avg_volume": 43.29650910991637,
+              "congestion_events": 71
+            }
+          },
+          "post_toll_q6": {
+            "morning_peak": {
+              "avg_speed": 70.8695407706093,
+              "min_speed": 8.5,
+              "avg_volume": 49.3133064516129,
+              "congestion_events": 5
+            },
+            "evening_peak": {
+              "avg_speed": 65.84905558795818,
+              "min_speed": 7.9,
+              "avg_volume": 50.92995797628127,
+              "congestion_events": 40
+            },
+            "combined": {
+              "avg_speed": 68.361042614719,
+              "min_speed": 7.9,
+              "avg_volume": 50.12107048652365,
+              "congestion_events": 45
+            }
+          }
+        },
+        "improvements": {
+          "speed_change_percent": 9.384021129970845,
+          "volume_change_percent": -28.89876345300412,
+          "congestion_reduction": 196
+        }
+      },
+      "correlations": {}
+    }
+  },
+  "baseline_traffic_characterization": {
+    "baseline_patterns": {
+      "peak_morning_congested": {
+        "speed": {
+          "AID01108": 11.848893647394718,
+          "AID01109": 11.635389856169569,
+          "AID01110": 18.052367916780728,
+          "AID01111": 16.189149888143177,
+          "AID01112": 10.820966729441306,
+          "AID01114": 27.639999999999997,
+          "AID01115": 9.025,
+          "AID01208": 22.17037037037037,
+          "AID01209": 24.78918918918919,
+          "AID01210": 7.855147540983607,
+          "AID01211": 7.3320025348542455,
+          "AID01212": 7.730222772277227,
+          "AID01213": 8.31435076923077,
+          "AID01214": 27.857593984962406,
+          "AID02205": 13.445,
+          "AID02206": 17.958620689655174,
+          "AID02207": 19.511290322580646,
+          "AID02208": 24.844444444444445,
+          "AID02209": 25.085897435897436,
+          "AID02210": 23.950044052863436,
+          "AID02211": 23.31497637222828,
+          "AID02212": 13.583076923076923,
+          "AID02213": 14.369736842105262,
+          "AID02214": 10.750295857988165,
+          "AID03101": 34.608333333333334,
+          "AID03102": 0.0,
+          "AID03103": 76.9,
+          "AID03204": 21.221702127659576,
+          "AID03205": 32.7503164556962,
+          "AID03206": 34.60549273021002,
+          "AID03207": 32.20342910101946,
+          "AID03208": 31.07860606060606,
+          "AID03209": 23.216153846153844,
+          "AID03210": 11.418181818181818,
+          "AID03211": 11.19789983844911,
+          "AID04104": 10.351358695652175,
+          "AID04106": 36.005121951219515,
+          "AID04107": 28.0,
+          "AID04109": 21.503333333333334,
+          "AID04110": 9.225,
+          "AID04111": 16.169230769230772,
+          "AID04121": 8.25,
+          "AID04210": 8.179797979797979,
+          "AID04211": 16.116091954022988,
+          "AID04212": 13.362343096234309,
+          "AID04214": 13.127586206896552,
+          "AID04218": 30.975,
+          "AID04220": 6.216666666666666,
+          "AID04221": 9.28695652173913,
+          "AID05109": 5.267518019429646,
+          "AID05110": 12.83,
+          "AID05111": 35.98644295302014,
+          "AID05225": 23.80467068445975,
+          "AID05226": 17.049520153550862,
+          "AID05227": 13.765573770491804,
+          "AID07226": 30.41789802289282,
+          "TDSIEC10001": 18.175,
+          "TDSIEC10002": 12.380555555555555,
+          "TDSIEC10003": 11.850246305418718,
+          "TDSIEC10004": 13.136,
+          "TDSIEC20002": 22.954545454545453
+        },
+        "occupancy": {
+          "AID01108": 84.23576017130621,
+          "AID01109": 82.47115821347464,
+          "AID01110": 78.5991513824254,
+          "AID01111": 80.6554250559284,
+          "AID01112": 86.24902699309479,
+          "AID01114": 71.88,
+          "AID01115": 86.885,
+          "AID01208": 79.34814814814816,
+          "AID01209": 73.86216216216216,
+          "AID01210": 89.96609836065574,
+          "AID01211": 92.17975285171103,
+          "AID01212": 93.1264603960396,
+          "AID01213": 88.97825230769232,
+          "AID01214": 56.1027067669173,
+          "AID02205": 88.27,
+          "AID02206": 81.99425287356321,
+          "AID02207": 80.65645161290323,
+          "AID02208": 76.39047619047619,
+          "AID02209": 77.78190883190884,
+          "AID02210": 74.98378854625551,
+          "AID02211": 77.03896764812795,
+          "AID02212": 77.07230769230769,
+          "AID02213": 89.57236842105263,
+          "AID02214": 87.1198224852071,
+          "AID03101": 77.15833333333333,
+          "AID03102": 100.0,
+          "AID03103": 61.325,
+          "AID03204": 76.23148936170213,
+          "AID03205": 65.11782700421941,
+          "AID03206": 65.85694668820678,
+          "AID03207": 69.80843373493977,
+          "AID03208": 74.61778787878788,
+          "AID03209": 64.9323076923077,
+          "AID03210": 76.60606060606061,
+          "AID03211": 90.87705977382876,
+          "AID04104": 86.94592391304347,
+          "AID04106": 66.39048780487805,
+          "AID04107": 67.725,
+          "AID04109": 81.24333333333334,
+          "AID04110": 85.125,
+          "AID04111": 80.1923076923077,
+          "AID04121": 90.28333333333335,
+          "AID04210": 88.48484848484848,
+          "AID04211": 87.12068965517241,
+          "AID04212": 88.19874476987448,
+          "AID04214": 86.80098522167486,
+          "AID04218": 67.125,
+          "AID04220": 87.10000000000001,
+          "AID04221": 87.7,
+          "AID05109": 95.04084926355374,
+          "AID05110": 72.56857142857143,
+          "AID05111": 67.8024832214765,
+          "AID05225": 72.63353422298752,
+          "AID05226": 83.1489443378119,
+          "AID05227": 78.22459016393442,
+          "AID07226": 74.76613481327321,
+          "TDSIEC10001": 77.175,
+          "TDSIEC10002": 76.16111111111111,
+          "TDSIEC10003": 75.11822660098522,
+          "TDSIEC10004": 63.0,
+          "TDSIEC20002": 79.6538961038961
+        },
+        "volume": {
+          "AID01108": 27.801570306923626,
+          "AID01109": 31.010219530658592,
+          "AID01110": 66.00711743772241,
+          "AID01111": 22.699944071588366,
+          "AID01112": 23.95082653274744,
+          "AID01114": 11.4,
+          "AID01115": 12.0,
+          "AID01208": 65.03703703703704,
+          "AID01209": 66.29729729729729,
+          "AID01210": 21.578360655737704,
+          "AID01211": 12.538656527249683,
+          "AID01212": 17.144801980198018,
+          "AID01213": 33.22129230769231,
+          "AID01214": 61.007894736842104,
+          "AID02205": 23.033333333333335,
+          "AID02206": 45.3448275862069,
+          "AID02207": 68.20967741935483,
+          "AID02208": 38.17777777777778,
+          "AID02209": 36.50569800569801,
+          "AID02210": 36.881938325991186,
+          "AID02211": 42.4525627044711,
+          "AID02212": 16.70769230769231,
+          "AID02213": 43.30263157894737,
+          "AID02214": 32.32544378698225,
+          "AID03101": 12.916666666666666,
+          "AID03102": 0.0,
+          "AID03103": 9.25,
+          "AID03204": 50.37021276595745,
+          "AID03205": 89.85654008438819,
+          "AID03206": 59.27786752827141,
+          "AID03207": 54.42678405931418,
+          "AID03208": 59.70484848484848,
+          "AID03209": 38.45384615384615,
+          "AID03210": 33.42424242424242,
+          "AID03211": 9.476575121163167,
+          "AID04104": 22.355978260869566,
+          "AID04106": 65.14512195121951,
+          "AID04107": 61.55,
+          "AID04109": 61.233333333333334,
+          "AID04110": 13.5,
+          "AID04111": 37.07692307692308,
+          "AID04121": 19.833333333333332,
+          "AID04210": 6.494949494949495,
+          "AID04211": 46.96551724137931,
+          "AID04212": 30.00418410041841,
+          "AID04214": 24.704433497536947,
+          "AID04218": 73.0,
+          "AID04220": 15.833333333333334,
+          "AID04221": 22.565217391304348,
+          "AID05109": 2.409589470385459,
+          "AID05110": 28.085714285714285,
+          "AID05111": 96.07114093959731,
+          "AID05225": 52.75312096427034,
+          "AID05226": 14.691218809980807,
+          "AID05227": 23.311475409836067,
+          "AID07226": 13.554861833738004,
+          "TDSIEC10001": 11.875,
+          "TDSIEC10002": 24.77777777777778,
+          "TDSIEC10003": 18.458128078817733,
+          "TDSIEC10004": 23.56,
+          "TDSIEC20002": 41.34415584415584
+        }
+      },
+      "peak_evening_congested": {
+        "speed": {
+          "AID01108": 9.480045304777594,
+          "AID01109": 13.104912451361868,
+          "AID01110": 17.24468414647638,
+          "AID01111": 19.29426262626263,
+          "AID01112": 13.65120218579235,
+          "AID01114": 10.940000000000001,
+          "AID01115": 8.848497854077252,
+          "AID01208": 20.96875,
+          "AID01209": 18.276923076923076,
+          "AID01210": 12.044444444444444,
+          "AID01211": 8.806947890818858,
+          "AID01212": 9.861305007587253,
+          "AID01213": 8.120922789705295,
+          "AID01214": 19.588502857142856,
+          "AID02205": 16.269277108433734,
+          "AID02206": 18.297826086956523,
+          "AID02207": 20.144481054365734,
+          "AID02208": 27.370963172804533,
+          "AID02209": 30.252275132275134,
+          "AID02210": 25.728084415584416,
+          "AID02211": 25.31719605695509,
+          "AID02212": 12.505194805194805,
+          "AID02213": 17.476348547717844,
+          "AID02214": 16.740425531914894,
+          "AID03101": 5.0,
+          "AID03102": 48.75,
+          "AID03103": 22.843681917211327,
+          "AID03104": 26.733870967741936,
+          "AID03204": 5.7,
+          "AID03205": 15.19375,
+          "AID03206": 16.362765957446808,
+          "AID03207": 15.544354838709678,
+          "AID03208": 21.858071065989847,
+          "AID03209": 18.533333333333335,
+          "AID03210": 60.5,
+          "AID03211": 5.5,
+          "AID04104": 6.251923076923077,
+          "AID04106": 28.214285714285715,
+          "AID04107": 14.641666666666667,
+          "AID04109": 15.636666666666667,
+          "AID04110": 11.514724857685009,
+          "AID04111": 24.79,
+          "AID04121": 9.491483870967741,
+          "AID04210": 13.51027027027027,
+          "AID04211": 39.26363636363636,
+          "AID04212": 12.634036144578314,
+          "AID04214": 11.272340425531914,
+          "AID04218": 32.300000000000004,
+          "AID04219": 21.979952267303105,
+          "AID04220": 38.075,
+          "AID04221": 15.418181818181818,
+          "AID05109": 8.069517022961202,
+          "AID05110": 14.501530823334711,
+          "AID05111": 38.610795040116706,
+          "AID05225": 26.85722543352601,
+          "AID05226": 16.176574307304787,
+          "AID05227": 15.76061946902655,
+          "AID07226": 31.542984409799555,
+          "TDSIEC10001": 11.25,
+          "TDSIEC10002": 9.602953586497891,
+          "TDSIEC10003": 10.169492574257427,
+          "TDSIEC10004": 9.574457741211667,
+          "TDSIEC20002": 15.070081967213115
+        },
+        "occupancy": {
+          "AID01108": 89.32745057660625,
+          "AID01109": 67.98214980544746,
+          "AID01110": 82.61799977873659,
+          "AID01111": 68.70836363636364,
+          "AID01112": 83.26972677595629,
+          "AID01114": 88.66749999999999,
+          "AID01115": 89.35536480686694,
+          "AID01208": 75.8,
+          "AID01209": 74.83076923076922,
+          "AID01210": 86.89999999999999,
+          "AID01211": 89.08114143920595,
+          "AID01212": 88.93945371775418,
+          "AID01213": 88.20028003733832,
+          "AID01214": 59.93387428571429,
+          "AID02205": 82.70481927710843,
+          "AID02206": 76.6008695652174,
+          "AID02207": 83.60477759472816,
+          "AID02208": 68.73725212464589,
+          "AID02209": 68.20455026455026,
+          "AID02210": 64.2021103896104,
+          "AID02211": 67.93822562979189,
+          "AID02212": 74.14935064935065,
+          "AID02213": 83.06639004149378,
+          "AID02214": 72.31702127659575,
+          "AID03101": 94.2,
+          "AID03102": 63.5,
+          "AID03103": 76.72549019607843,
+          "AID03104": 63.09516129032258,
+          "AID03204": 90.76666666666667,
+          "AID03205": 79.3625,
+          "AID03206": 79.49521276595745,
+          "AID03207": 84.12762096774195,
+          "AID03208": 80.81187817258883,
+          "AID03209": 66.21666666666667,
+          "AID03210": 75.01666666666667,
+          "AID03211": 87.55000000000001,
+          "AID04104": 94.625,
+          "AID04106": 69.72142857142858,
+          "AID04107": 81.95714285714286,
+          "AID04109": 79.92333333333333,
+          "AID04110": 92.68028462998102,
+          "AID04111": 62.739999999999995,
+          "AID04121": 87.86116129032257,
+          "AID04210": 86.99027027027027,
+          "AID04211": 72.64545454545454,
+          "AID04212": 83.7460843373494,
+          "AID04214": 90.04255319148936,
+          "AID04218": 60.53502824858757,
+          "AID04219": 72.50835322195704,
+          "AID04220": 83.05,
+          "AID04221": 87.22727272727273,
+          "AID05109": 89.82866191607285,
+          "AID05110": 90.58546752172114,
+          "AID05111": 65.02910284463894,
+          "AID05225": 68.77726396917149,
+          "AID05226": 74.43450881612091,
+          "AID05227": 74.71283185840707,
+          "AID07226": 60.63118040089087,
+          "TDSIEC10001": 63.266666666666666,
+          "TDSIEC10002": 80.42067510548523,
+          "TDSIEC10003": 79.21615099009901,
+          "TDSIEC10004": 86.04940164547494,
+          "TDSIEC20002": 86.32336065573772
+        },
+        "volume": {
+          "AID01108": 18.800864909390445,
+          "AID01109": 23.601896887159533,
+          "AID01110": 69.94457351476933,
+          "AID01111": 42.136161616161615,
+          "AID01112": 36.11420765027322,
+          "AID01114": 27.5,
+          "AID01115": 19.974248927038627,
+          "AID01208": 63.65625,
+          "AID01209": 46.84615384615385,
+          "AID01210": 35.08187134502924,
+          "AID01211": 17.548387096774192,
+          "AID01212": 20.509863429438543,
+          "AID01213": 32.48579810641419,
+          "AID01214": 45.568914285714285,
+          "AID02205": 47.18072289156626,
+          "AID02206": 56.13478260869565,
+          "AID02207": 66.08566721581549,
+          "AID02208": 72.44050991501416,
+          "AID02209": 76.65925925925926,
+          "AID02210": 66.15584415584415,
+          "AID02211": 53.85323110624316,
+          "AID02212": 21.07792207792208,
+          "AID02213": 58.18257261410788,
+          "AID02214": 40.41843971631206,
+          "AID03101": 14.833333333333334,
+          "AID03102": 1.0,
+          "AID03103": 74.58169934640523,
+          "AID03104": 35.87096774193548,
+          "AID03204": 17.666666666666668,
+          "AID03205": 51.6875,
+          "AID03206": 40.920212765957444,
+          "AID03207": 39.52620967741935,
+          "AID03208": 55.2,
+          "AID03209": 57.5,
+          "AID03210": 0.3333333333333333,
+          "AID03211": 12.0,
+          "AID04104": 4.769230769230769,
+          "AID04106": 70.97142857142858,
+          "AID04107": 45.11904761904762,
+          "AID04109": 57.8,
+          "AID04110": 15.309867172675522,
+          "AID04111": 29.4,
+          "AID04121": 33.74322580645161,
+          "AID04210": 41.5945945945946,
+          "AID04211": 5.818181818181818,
+          "AID04212": 33.65963855421687,
+          "AID04214": 18.595744680851062,
+          "AID04218": 55.378531073446325,
+          "AID04219": 65.95226730310263,
+          "AID04220": 0.5,
+          "AID04221": 39.18181818181818,
+          "AID05109": 21.215954077593032,
+          "AID05110": 65.2598262308647,
+          "AID05111": 95.73595915390226,
+          "AID05225": 78.0028901734104,
+          "AID05226": 4.730478589420655,
+          "AID05227": 29.606194690265486,
+          "AID07226": 13.228507795100223,
+          "TDSIEC10001": 25.555555555555557,
+          "TDSIEC10002": 20.936708860759495,
+          "TDSIEC10003": 16.289913366336634,
+          "TDSIEC10004": 11.05871353777113,
+          "TDSIEC20002": 34.807377049180324
+        }
+      },
+      "non_peak": {
+        "speed": {
+          "AID01108": 69.19857831651046,
+          "AID01109": 52.80441896418449,
+          "AID01110": 49.197851542904644,
+          "AID01111": 53.076450945753805,
+          "AID01112": 50.198903818953326,
+          "AID01114": 63.88316276803119,
+          "AID01115": 57.79939759896079,
+          "AID01208": 61.25239611115891,
+          "AID01209": 60.11906311936693,
+          "AID01210": 57.03337760070828,
+          "AID01211": 56.971902171585214,
+          "AID01212": 63.981476390917166,
+          "AID01213": 43.00103527442818,
+          "AID01214": 38.625129918337045,
+          "AID02104": 81.03416902374218,
+          "AID02205": 88.73846731619383,
+          "AID02206": 90.55651282498691,
+          "AID02207": 74.99386740331492,
+          "AID02208": 82.06180269775949,
+          "AID02209": 88.67937730976128,
+          "AID02210": 82.07329763035905,
+          "AID02211": 75.72452741522277,
+          "AID02212": 74.98532033586382,
+          "AID02213": 75.15793452559363,
+          "AID02214": 75.59962496217197,
+          "AID03101": 68.96966982412526,
+          "AID03102": 52.97362552534523,
+          "AID03103": 78.27454529892584,
+          "AID03104": 48.50684872870473,
+          "AID03106": 104.7863208222394,
+          "AID03204": 92.46183171626285,
+          "AID03205": 98.75934879061114,
+          "AID03206": 99.60645475372279,
+          "AID03207": 92.19631045442831,
+          "AID03208": 91.43091864421379,
+          "AID03209": 85.6651480539632,
+          "AID03210": 83.8872781872782,
+          "AID03211": 70.33012986732356,
+          "AID04104": 74.85516059957173,
+          "AID04106": 75.69081970066134,
+          "AID04107": 75.45517300666236,
+          "AID04109": 67.033071254124,
+          "AID04110": 73.49229515928482,
+          "AID04111": 66.30190350952833,
+          "AID04121": 82.87654231197057,
+          "AID04210": 72.0122063560232,
+          "AID04211": 70.57853554868625,
+          "AID04212": 72.72616896463133,
+          "AID04214": 76.62039933015588,
+          "AID04218": 72.6799341634464,
+          "AID04219": 65.24304025378318,
+          "AID04220": 81.66218363239261,
+          "AID04221": 81.01035662362096,
+          "AID05109": 51.62882972726878,
+          "AID05110": 44.57437104190162,
+          "AID05111": 56.86828150432622,
+          "AID05225": 46.69243060667735,
+          "AID05226": 50.085125370015675,
+          "AID05227": 51.28274750460524,
+          "AID07226": 40.875529706823485,
+          "TDSIEC10001": 40.557963707598724,
+          "TDSIEC10002": 44.04776109057301,
+          "TDSIEC10003": 44.62872604994921,
+          "TDSIEC10004": 52.25873686530972,
+          "TDSIEC20002": 71.00204270282028
+        },
+        "occupancy": {
+          "AID01108": 6.659476387887527,
+          "AID01109": 12.528134215122105,
+          "AID01110": 16.056348626220064,
+          "AID01111": 16.66987052436555,
+          "AID01112": 17.64014187132999,
+          "AID01114": 7.036661506707946,
+          "AID01115": 7.474476467817224,
+          "AID01208": 10.060814763830336,
+          "AID01209": 9.00955832356813,
+          "AID01210": 10.298860472090134,
+          "AID01211": 13.157888950757412,
+          "AID01212": 10.972701371588926,
+          "AID01213": 21.8835557653521,
+          "AID01214": 22.954135971674948,
+          "AID02104": 2.81746164395303,
+          "AID02205": 7.212009099102966,
+          "AID02206": 7.597834147618217,
+          "AID02207": 9.493795273173726,
+          "AID02208": 9.702549154092363,
+          "AID02209": 9.922661701125808,
+          "AID02210": 9.316361463821945,
+          "AID02211": 10.24418421331878,
+          "AID02212": 8.54856941568898,
+          "AID02213": 6.943615745828755,
+          "AID02214": 8.500669015606762,
+          "AID03101": 2.6275613275613274,
+          "AID03102": 2.573477570975212,
+          "AID03103": 5.3298048529978175,
+          "AID03104": 5.383956853009161,
+          "AID03106": 2.9475493143233416,
+          "AID03204": 6.113484019007354,
+          "AID03205": 8.312941176470588,
+          "AID03206": 8.208797250859106,
+          "AID03207": 8.983712739455374,
+          "AID03208": 9.352607778112752,
+          "AID03209": 9.136412223611051,
+          "AID03210": 3.830282914493441,
+          "AID03211": 5.892271705778123,
+          "AID04104": 4.76171948608137,
+          "AID04106": 10.6486932938856,
+          "AID04107": 10.770871838956946,
+          "AID04109": 9.85425039633232,
+          "AID04110": 7.026931355314496,
+          "AID04111": 11.918726825903251,
+          "AID04121": 3.4378540258406773,
+          "AID04210": 4.6170453081382865,
+          "AID04211": 2.1949532028164174,
+          "AID04212": 4.928927235876795,
+          "AID04214": 6.867716089140796,
+          "AID04218": 8.524047516816944,
+          "AID04219": 5.705845872451094,
+          "AID04220": 1.9822962614020812,
+          "AID04221": 3.6142457025570853,
+          "AID05109": 14.13221393574123,
+          "AID05110": 19.48935108874816,
+          "AID05111": 21.69885633513236,
+          "AID05225": 23.175014073528775,
+          "AID05226": 11.219610830576354,
+          "AID05227": 13.118760442102557,
+          "AID07226": 21.226370751535068,
+          "TDSIEC10001": 8.014364367460562,
+          "TDSIEC10002": 11.72673752310536,
+          "TDSIEC10003": 13.314254439735192,
+          "TDSIEC10004": 14.485906385480197,
+          "TDSIEC20002": 13.657614369607773
+        },
+        "volume": {
+          "AID01108": 33.52566240086518,
+          "AID01109": 41.50012883277506,
+          "AID01110": 56.484083645067436,
+          "AID01111": 50.92677409625576,
+          "AID01112": 53.30734859200206,
+          "AID01114": 35.346806558880864,
+          "AID01115": 33.85633734458196,
+          "AID01208": 47.414867073905185,
+          "AID01209": 41.23092169032015,
+          "AID01210": 35.01470819232033,
+          "AID01211": 30.79878928056424,
+          "AID01212": 22.775062279872863,
+          "AID01213": 30.87200145903961,
+          "AID01214": 52.117383359031464,
+          "AID02104": 16.30571269392303,
+          "AID02205": 43.975406669814156,
+          "AID02206": 45.1137236084453,
+          "AID02207": 47.399171270718234,
+          "AID02208": 51.45560413808871,
+          "AID02209": 52.60391250374556,
+          "AID02210": 50.95629264921828,
+          "AID02211": 51.54522715903406,
+          "AID02212": 43.61332528180354,
+          "AID02213": 41.10137542878076,
+          "AID02214": 41.63609441874541,
+          "AID03101": 14.8011658308688,
+          "AID03102": 11.253216399348142,
+          "AID03103": 33.61730217828562,
+          "AID03104": 18.1753702593956,
+          "AID03106": 19.937015087749433,
+          "AID03204": 34.86602706560428,
+          "AID03205": 56.41663088593101,
+          "AID03206": 52.570890607101944,
+          "AID03207": 49.69711937691493,
+          "AID03208": 52.24474209340052,
+          "AID03209": 50.318879933336206,
+          "AID03210": 20.951319740793426,
+          "AID03211": 23.769307230217382,
+          "AID04104": 25.165481798715202,
+          "AID04106": 57.93359148393085,
+          "AID04107": 59.693674331972204,
+          "AID04109": 52.32471399802905,
+          "AID04110": 34.371358744586885,
+          "AID04111": 55.40210830387169,
+          "AID04121": 22.479549927269616,
+          "AID04210": 25.67307279364398,
+          "AID04211": 11.68143568607247,
+          "AID04212": 26.443207444834574,
+          "AID04214": 39.899214221306195,
+          "AID04218": 50.835451552883924,
+          "AID04219": 33.507037624498075,
+          "AID04220": 13.611515566785148,
+          "AID04221": 21.22695202257761,
+          "AID05109": 32.42661405714781,
+          "AID05110": 53.58302246898586,
+          "AID05111": 74.68028784374197,
+          "AID05225": 76.11843415753691,
+          "AID05226": 35.5855280341285,
+          "AID05227": 49.05724414171272,
+          "AID07226": 19.559673095217505,
+          "TDSIEC10001": 29.024260233013713,
+          "TDSIEC10002": 34.604736598890945,
+          "TDSIEC10003": 39.50366037339311,
+          "TDSIEC10004": 40.123117054890145,
+          "TDSIEC20002": 50.94448270862031
+        }
+      }
+    },
+    "detector_statistics": {
+      "speed_mean": {
+        "AID01108": 60.35516731781892,
+        "AID01109": 47.84455593726445,
+        "AID01110": 44.15379248573987,
+        "AID01111": 53.00766261588026,
+        "AID01112": 49.72413264152771,
+        "AID01114": 63.416305225244784,
+        "AID01115": 57.58050594597696,
+        "AID01208": 60.32304855224045,
+        "AID01209": 59.71736180625069,
+        "AID01210": 56.534209278749024,
+        "AID01211": 56.15365421781708,
+        "AID01212": 63.88248666378317,
+        "AID01213": 37.57292780676454,
+        "AID01214": 36.31444202662024,
+        "AID02104": 82.3578958400516,
+        "AID02205": 86.89976606160378,
+        "AID02206": 88.54570421289952,
+        "AID02207": 73.03525095842842,
+        "AID02208": 79.36160876659551,
+        "AID02209": 83.98361191678305,
+        "AID02210": 78.34775607131593,
+        "AID02211": 71.85845846771552,
+        "AID02212": 73.56346592097586,
+        "AID02213": 74.21330090334692,
+        "AID02214": 73.37165718152671,
+        "AID03101": 68.34911006292702,
+        "AID03102": 53.551628938181665,
+        "AID03103": 74.01031787164204,
+        "AID03104": 48.42421109258163,
+        "AID03106": 104.74722620236493,
+        "AID03204": 90.93929277128272,
+        "AID03205": 94.06582968053827,
+        "AID03206": 93.42564462177961,
+        "AID03207": 85.93161673484595,
+        "AID03208": 85.5297251307005,
+        "AID03209": 80.76360842253818,
+        "AID03210": 82.95834514947418,
+        "AID03211": 70.02749274144254,
+        "AID04104": 74.80052625342039,
+        "AID04106": 73.17292730435042,
+        "AID04107": 73.54432851262409,
+        "AID04109": 67.75188350778242,
+        "AID04110": 70.52196655388241,
+        "AID04111": 65.85899582735546,
+        "AID04121": 80.95725833288606,
+        "AID04210": 72.04487688706338,
+        "AID04211": 70.4284832178285,
+        "AID04212": 72.38250317904604,
+        "AID04214": 75.88616218483683,
+        "AID04218": 68.77389279169212,
+        "AID04219": 62.013757999777205,
+        "AID04220": 82.24541200012911,
+        "AID04221": 80.76453336627176,
+        "AID05109": 46.768463742028956,
+        "AID05110": 38.17574584966313,
+        "AID05111": 56.90462238672678,
+        "AID05225": 45.2500179038401,
+        "AID05226": 48.540873059471096,
+        "AID05227": 49.129415893953244,
+        "AID07226": 40.31527558537227,
+        "TDSIEC10001": 40.676651088696474,
+        "TDSIEC10002": 43.05045378559571,
+        "TDSIEC10003": 42.034561185891675,
+        "TDSIEC10004": 48.880607068683496,
+        "TDSIEC20002": 70.794386428868
+      },
+      "speed_std": {
+        "AID01108": 21.224599792080056,
+        "AID01109": 15.494061374307334,
+        "AID01110": 14.18337221035885,
+        "AID01111": 12.858853358998006,
+        "AID01112": 12.851297384059158,
+        "AID01114": 6.840572430075298,
+        "AID01115": 7.925782361189963,
+        "AID01208": 5.2203978715598645,
+        "AID01209": 11.482375560075214,
+        "AID01210": 14.164636478099238,
+        "AID01211": 16.691930641163438,
+        "AID01212": 18.309292082419386,
+        "AID01213": 21.049418870687962,
+        "AID01214": 10.291951529808422,
+        "AID02104": 8.147717279667278,
+        "AID02205": 11.048839893295497,
+        "AID02206": 12.20402446561775,
+        "AID02207": 11.495579774970464,
+        "AID02208": 14.422638593947873,
+        "AID02209": 17.51807423621919,
+        "AID02210": 16.390996687725906,
+        "AID02211": 17.524064581403927,
+        "AID02212": 10.82814516674225,
+        "AID02213": 10.161955509028209,
+        "AID02214": 12.049455993595924,
+        "AID03101": 5.545232351225866,
+        "AID03102": 5.1386615819751915,
+        "AID03103": 17.44188634406379,
+        "AID03104": 4.7531118316354375,
+        "AID03106": 13.137416630146596,
+        "AID03204": 15.72594237272348,
+        "AID03205": 20.120045173111485,
+        "AID03206": 22.23661241962783,
+        "AID03207": 22.05020211595874,
+        "AID03208": 22.0397623948295,
+        "AID03209": 19.821910891786498,
+        "AID03210": 14.081391084537806,
+        "AID03211": 16.334530740851037,
+        "AID04104": 12.011488219964182,
+        "AID04106": 11.471502958669308,
+        "AID04107": 11.295245589010229,
+        "AID04109": 7.125624766408317,
+        "AID04110": 12.828913653602147,
+        "AID04111": 3.0878836204027635,
+        "AID04121": 10.587431766605699,
+        "AID04210": 7.506918966423958,
+        "AID04211": 5.732672395488145,
+        "AID04212": 6.951357949006808,
+        "AID04214": 9.333101435835662,
+        "AID04218": 11.716652544546967,
+        "AID04219": 11.52460052937525,
+        "AID04220": 5.596136838047487,
+        "AID04221": 8.171343238733954,
+        "AID05109": 18.230617083527036,
+        "AID05110": 15.87649738574778,
+        "AID05111": 8.046750192829762,
+        "AID05225": 11.00819491251855,
+        "AID05226": 11.65054351238646,
+        "AID05227": 10.14582593849938,
+        "AID07226": 8.862739211254896,
+        "TDSIEC10001": 12.776261801172943,
+        "TDSIEC10002": 8.31854793184902,
+        "TDSIEC10003": 12.496533848304729,
+        "TDSIEC10004": 14.66803198190011,
+        "TDSIEC20002": 14.603059161085541
+      },
+      "speed_min": {
+        "AID01108": 0.0,
+        "AID01109": 0.0,
+        "AID01110": 0.0,
+        "AID01111": 0.0,
+        "AID01112": 0.0,
+        "AID01114": 0.0,
+        "AID01115": 0.0,
+        "AID01208": 2.5,
+        "AID01209": 0.0,
+        "AID01210": 0.0,
+        "AID01211": 0.0,
+        "AID01212": 0.0,
+        "AID01213": 0.0,
+        "AID01214": 0.0,
+        "AID02104": 37.3,
+        "AID02205": 0.0,
+        "AID02206": 0.0,
+        "AID02207": 0.0,
+        "AID02208": 0.0,
+        "AID02209": 0.0,
+        "AID02210": 0.0,
+        "AID02211": 0.0,
+        "AID02212": 0.0,
+        "AID02213": 0.0,
+        "AID02214": 0.0,
+        "AID03101": 0.0,
+        "AID03102": 0.0,
+        "AID03103": 0.0,
+        "AID03104": 2.5,
+        "AID03106": 30.2,
+        "AID03204": 0.0,
+        "AID03205": 0.0,
+        "AID03206": 0.0,
+        "AID03207": 0.0,
+        "AID03208": 0.0,
+        "AID03209": 0.0,
+        "AID03210": 0.0,
+        "AID03211": 0.0,
+        "AID04104": 0.0,
+        "AID04106": 0.0,
+        "AID04107": 0.0,
+        "AID04109": 0.0,
+        "AID04110": 0.0,
+        "AID04111": 5.9,
+        "AID04121": 0.0,
+        "AID04210": 0.0,
+        "AID04211": 0.0,
+        "AID04212": 0.0,
+        "AID04214": 0.0,
+        "AID04218": 0.0,
+        "AID04219": 0.0,
+        "AID04220": 0.0,
+        "AID04221": 0.0,
+        "AID05109": 0.0,
+        "AID05110": 0.0,
+        "AID05111": 0.0,
+        "AID05225": 0.0,
+        "AID05226": 0.0,
+        "AID05227": 0.0,
+        "AID07226": 0.0,
+        "TDSIEC10001": 0.0,
+        "TDSIEC10002": 0.0,
+        "TDSIEC10003": 0.0,
+        "TDSIEC10004": 0.0,
+        "TDSIEC20002": 0.0
+      },
+      "speed_max": {
+        "AID01108": 118.5,
+        "AID01109": 95.0,
+        "AID01110": 101.0,
+        "AID01111": 115.0,
+        "AID01112": 101.0,
+        "AID01114": 91.5,
+        "AID01115": 87.0,
+        "AID01208": 94.0,
+        "AID01209": 98.2,
+        "AID01210": 92.0,
+        "AID01211": 97.0,
+        "AID01212": 118.0,
+        "AID01213": 82.2,
+        "AID01214": 70.5,
+        "AID02104": 121.5,
+        "AID02205": 127.8,
+        "AID02206": 137.0,
+        "AID02207": 113.9,
+        "AID02208": 132.8,
+        "AID02209": 149.0,
+        "AID02210": 138.2,
+        "AID02211": 135.5,
+        "AID02212": 116.5,
+        "AID02213": 118.5,
+        "AID02214": 125.0,
+        "AID03101": 98.5,
+        "AID03102": 92.0,
+        "AID03103": 126.8,
+        "AID03104": 84.0,
+        "AID03106": 164.0,
+        "AID03204": 145.9,
+        "AID03205": 151.8,
+        "AID03206": 155.2,
+        "AID03207": 153.8,
+        "AID03208": 149.5,
+        "AID03209": 145.5,
+        "AID03210": 129.0,
+        "AID03211": 126.0,
+        "AID04104": 190.0,
+        "AID04106": 151.5,
+        "AID04107": 125.0,
+        "AID04109": 108.5,
+        "AID04110": 123.5,
+        "AID04111": 100.8,
+        "AID04121": 127.8,
+        "AID04210": 109.0,
+        "AID04211": 123.0,
+        "AID04212": 134.0,
+        "AID04214": 115.5,
+        "AID04218": 138.0,
+        "AID04219": 95.8,
+        "AID04220": 125.5,
+        "AID04221": 118.5,
+        "AID05109": 119.0,
+        "AID05110": 77.7,
+        "AID05111": 92.1,
+        "AID05225": 89.0,
+        "AID05226": 102.0,
+        "AID05227": 101.0,
+        "AID07226": 122.0,
+        "TDSIEC10001": 109.0,
+        "TDSIEC10002": 100.0,
+        "TDSIEC10003": 135.3,
+        "TDSIEC10004": 124.7,
+        "TDSIEC20002": 180.0
+      },
+      "speed_median": {
+        "AID01108": 68.3,
+        "AID01109": 51.1,
+        "AID01110": 46.3,
+        "AID01111": 55.1,
+        "AID01112": 52.7,
+        "AID01114": 63.7,
+        "AID01115": 59.2,
+        "AID01208": 60.5,
+        "AID01209": 63.5,
+        "AID01210": 60.9,
+        "AID01211": 61.4,
+        "AID01212": 69.1,
+        "AID01213": 47.0,
+        "AID01214": 38.4,
+        "AID02104": 81.4,
+        "AID02205": 87.0,
+        "AID02206": 88.8,
+        "AID02207": 73.6,
+        "AID02208": 79.8,
+        "AID02209": 84.9,
+        "AID02210": 80.0,
+        "AID02211": 74.1,
+        "AID02212": 72.7,
+        "AID02213": 74.5,
+        "AID02214": 74.4,
+        "AID03101": 68.6,
+        "AID03102": 53.2,
+        "AID03103": 77.2,
+        "AID03104": 49.0,
+        "AID03106": 104.1,
+        "AID03204": 92.5,
+        "AID03205": 96.2,
+        "AID03206": 96.6,
+        "AID03207": 89.2,
+        "AID03208": 90.2,
+        "AID03209": 84.7,
+        "AID03210": 85.0,
+        "AID03211": 74.4,
+        "AID04104": 74.6,
+        "AID04106": 74.3,
+        "AID04107": 74.7,
+        "AID04109": 67.7,
+        "AID04110": 72.1,
+        "AID04111": 66.0,
+        "AID04121": 81.6,
+        "AID04210": 72.6,
+        "AID04211": 70.2,
+        "AID04212": 72.9,
+        "AID04214": 76.2,
+        "AID04218": 70.9,
+        "AID04219": 64.7,
+        "AID04220": 81.8,
+        "AID04221": 80.9,
+        "AID05109": 52.5,
+        "AID05110": 40.5,
+        "AID05111": 57.5,
+        "AID05225": 47.9,
+        "AID05226": 49.9,
+        "AID05227": 50.0,
+        "AID07226": 40.7,
+        "TDSIEC10001": 41.7,
+        "TDSIEC10002": 43.0,
+        "TDSIEC10003": 43.9,
+        "TDSIEC10004": 52.7,
+        "TDSIEC20002": 73.1
+      },
+      "occupancy_mean": {
+        "AID01108": 13.491178868693732,
+        "AID01109": 15.893907636110626,
+        "AID01110": 19.886967715733096,
+        "AID01111": 16.431473952968506,
+        "AID01112": 18.059976909910976,
+        "AID01114": 7.511621871097356,
+        "AID01115": 8.023070247163288,
+        "AID01208": 11.620337443575911,
+        "AID01209": 10.656838690542395,
+        "AID01210": 11.356515618960097,
+        "AID01211": 13.966205638152,
+        "AID01212": 11.187615700692042,
+        "AID01213": 27.012736170074863,
+        "AID01214": 24.854279186160376,
+        "AID02104": 3.576397398688595,
+        "AID02205": 8.674568946843998,
+        "AID02206": 8.998130056142523,
+        "AID02207": 11.367491798618634,
+        "AID02208": 11.770080290973915,
+        "AID02209": 12.162118021985892,
+        "AID02210": 10.960508339362905,
+        "AID02211": 12.06861332994247,
+        "AID02212": 9.70081174609815,
+        "AID02213": 8.15658948832688,
+        "AID02214": 9.794250396600882,
+        "AID03101": 3.2136978711309236,
+        "AID03102": 3.427944014397537,
+        "AID03103": 8.109375809795283,
+        "AID03104": 6.947978912259939,
+        "AID03106": 3.4504638675408508,
+        "AID03204": 7.8841072506723755,
+        "AID03205": 10.660471165467108,
+        "AID03206": 10.598777981930658,
+        "AID03207": 11.765710348419578,
+        "AID03208": 12.195210786230467,
+        "AID03209": 11.26594284342503,
+        "AID03210": 4.616037087912088,
+        "AID03211": 6.877124083129584,
+        "AID04104": 6.207624749531381,
+        "AID04106": 11.856842195431708,
+        "AID04107": 12.22839669227439,
+        "AID04109": 10.440238624654265,
+        "AID04110": 9.5935994032884,
+        "AID04111": 12.615610728405743,
+        "AID04121": 4.602084697547099,
+        "AID04210": 5.542551179651686,
+        "AID04211": 2.650643293925805,
+        "AID04212": 5.967569047438931,
+        "AID04214": 8.200247935708923,
+        "AID04218": 10.564043546557292,
+        "AID04219": 7.942119523229448,
+        "AID04220": 2.192911704267932,
+        "AID04221": 4.057728537211475,
+        "AID05109": 17.66419861487636,
+        "AID05110": 24.137009555682766,
+        "AID05111": 21.913631521750826,
+        "AID05225": 25.73419199427077,
+        "AID05226": 13.632638240367397,
+        "AID05227": 14.282919224239258,
+        "AID07226": 23.03242896606156,
+        "TDSIEC10001": 8.199705367568779,
+        "TDSIEC10002": 13.649612734918643,
+        "TDSIEC10003": 17.544437626288083,
+        "TDSIEC10004": 18.646987630722858,
+        "TDSIEC20002": 14.64944085419788
+      },
+      "occupancy_std": {
+        "AID01108": 22.050830349756843,
+        "AID01109": 17.801553792311356,
+        "AID01110": 19.216086203830304,
+        "AID01111": 18.196771173686454,
+        "AID01112": 19.68030846861717,
+        "AID01114": 6.933405652984151,
+        "AID01115": 8.171450845478768,
+        "AID01208": 9.262574799228311,
+        "AID01209": 9.443728775091472,
+        "AID01210": 13.893459373467923,
+        "AID01211": 20.165485872617538,
+        "AID01212": 18.365912111101423,
+        "AID01213": 32.86062467744822,
+        "AID01214": 18.30770631454872,
+        "AID02104": 3.7101057363903394,
+        "AID02205": 8.115888823852774,
+        "AID02206": 8.720081041824075,
+        "AID02207": 11.477305596019983,
+        "AID02208": 12.582554864265834,
+        "AID02209": 13.491097090357165,
+        "AID02210": 12.25160397588955,
+        "AID02211": 13.28990058269768,
+        "AID02212": 9.929183995562106,
+        "AID02213": 8.324329694831667,
+        "AID02214": 10.979677438242046,
+        "AID03101": 4.184167342299656,
+        "AID03102": 2.9501200276993997,
+        "AID03103": 10.196256532062787,
+        "AID03104": 6.64221567877229,
+        "AID03106": 3.3423472744771927,
+        "AID03204": 8.760365480037846,
+        "AID03205": 10.1040621436313,
+        "AID03206": 11.061396430726091,
+        "AID03207": 12.815899312344952,
+        "AID03208": 14.280917452965161,
+        "AID03209": 11.969842714287909,
+        "AID03210": 5.539596331862137,
+        "AID03211": 9.278911238847023,
+        "AID04104": 9.189131858464595,
+        "AID04106": 10.942150219184919,
+        "AID04107": 11.58694303507963,
+        "AID04109": 9.545030355974502,
+        "AID04110": 15.190207289265429,
+        "AID04111": 9.467665007093899,
+        "AID04121": 8.243933298078925,
+        "AID04210": 6.609087725374894,
+        "AID04211": 3.6132890244562774,
+        "AID04212": 7.606863465567284,
+        "AID04214": 9.121816840814512,
+        "AID04218": 9.885970859522676,
+        "AID04219": 9.32175477273419,
+        "AID04220": 3.218759187944606,
+        "AID04221": 4.733650371669574,
+        "AID05109": 26.223669286563442,
+        "AID05110": 25.91189339644304,
+        "AID05111": 16.969334820834902,
+        "AID05225": 19.17872769147375,
+        "AID05226": 18.862125385939365,
+        "AID05227": 13.554387713458944,
+        "AID07226": 26.364878646083916,
+        "TDSIEC10001": 5.144265565390081,
+        "TDSIEC10002": 12.83837498134844,
+        "TDSIEC10003": 18.107807596202893,
+        "TDSIEC10004": 18.239290973670897,
+        "TDSIEC20002": 11.32234870330068
+      },
+      "occupancy_min": {
+        "AID01108": 0.0,
+        "AID01109": 0.0,
+        "AID01110": 0.0,
+        "AID01111": 0.0,
+        "AID01112": 0.0,
+        "AID01114": 0.0,
+        "AID01115": 0.0,
+        "AID01208": 0.0,
+        "AID01209": 0.0,
+        "AID01210": 0.0,
+        "AID01211": 0.0,
+        "AID01212": 0.0,
+        "AID01213": 0.0,
+        "AID01214": 0.0,
+        "AID02104": 0.0,
+        "AID02205": 0.0,
+        "AID02206": 0.0,
+        "AID02207": 0.0,
+        "AID02208": 0.0,
+        "AID02209": 0.0,
+        "AID02210": 0.0,
+        "AID02211": 0.0,
+        "AID02212": 0.0,
+        "AID02213": 0.0,
+        "AID02214": 0.0,
+        "AID03101": 0.0,
+        "AID03102": 0.0,
+        "AID03103": 0.0,
+        "AID03104": 0.0,
+        "AID03106": 0.0,
+        "AID03204": 0.0,
+        "AID03205": 0.0,
+        "AID03206": 0.0,
+        "AID03207": 0.0,
+        "AID03208": 0.0,
+        "AID03209": 0.0,
+        "AID03210": 0.0,
+        "AID03211": 0.0,
+        "AID04104": 0.0,
+        "AID04106": 0.0,
+        "AID04107": 0.0,
+        "AID04109": 0.0,
+        "AID04110": 0.0,
+        "AID04111": 0.0,
+        "AID04121": 0.0,
+        "AID04210": 0.0,
+        "AID04211": 0.0,
+        "AID04212": 0.0,
+        "AID04214": 0.0,
+        "AID04218": 0.0,
+        "AID04219": 0.0,
+        "AID04220": 0.0,
+        "AID04221": 0.0,
+        "AID05109": 0.0,
+        "AID05110": 0.0,
+        "AID05111": 0.0,
+        "AID05225": 0.0,
+        "AID05226": 0.0,
+        "AID05227": 0.0,
+        "AID07226": 0.0,
+        "TDSIEC10001": 0.0,
+        "TDSIEC10002": 0.0,
+        "TDSIEC10003": 0.0,
+        "TDSIEC10004": 0.0,
+        "TDSIEC20002": 0.0
+      },
+      "occupancy_max": {
+        "AID01108": 100.0,
+        "AID01109": 100.0,
+        "AID01110": 100.0,
+        "AID01111": 100.0,
+        "AID01112": 100.0,
+        "AID01114": 100.0,
+        "AID01115": 100.0,
+        "AID01208": 99.2,
+        "AID01209": 100.0,
+        "AID01210": 100.0,
+        "AID01211": 100.0,
+        "AID01212": 100.0,
+        "AID01213": 100.0,
+        "AID01214": 100.0,
+        "AID02104": 42.1,
+        "AID02205": 100.0,
+        "AID02206": 100.0,
+        "AID02207": 100.0,
+        "AID02208": 100.0,
+        "AID02209": 100.0,
+        "AID02210": 99.6,
+        "AID02211": 100.0,
+        "AID02212": 100.0,
+        "AID02213": 100.0,
+        "AID02214": 100.0,
+        "AID03101": 100.0,
+        "AID03102": 100.0,
+        "AID03103": 100.0,
+        "AID03104": 100.0,
+        "AID03106": 46.2,
+        "AID03204": 100.0,
+        "AID03205": 100.0,
+        "AID03206": 100.0,
+        "AID03207": 100.0,
+        "AID03208": 100.0,
+        "AID03209": 100.0,
+        "AID03210": 100.0,
+        "AID03211": 100.0,
+        "AID04104": 100.0,
+        "AID04106": 100.0,
+        "AID04107": 100.0,
+        "AID04109": 100.0,
+        "AID04110": 100.0,
+        "AID04111": 100.0,
+        "AID04121": 100.0,
+        "AID04210": 100.0,
+        "AID04211": 100.0,
+        "AID04212": 100.0,
+        "AID04214": 100.0,
+        "AID04218": 100.0,
+        "AID04219": 100.0,
+        "AID04220": 100.0,
+        "AID04221": 100.0,
+        "AID05109": 100.0,
+        "AID05110": 100.0,
+        "AID05111": 100.0,
+        "AID05225": 100.0,
+        "AID05226": 100.0,
+        "AID05227": 100.0,
+        "AID07226": 100.0,
+        "TDSIEC10001": 100.0,
+        "TDSIEC10002": 100.0,
+        "TDSIEC10003": 100.0,
+        "TDSIEC10004": 100.0,
+        "TDSIEC20002": 100.0
+      },
+      "occupancy_median": {
+        "AID01108": 5.5,
+        "AID01109": 9.5,
+        "AID01110": 13.7,
+        "AID01111": 8.8,
+        "AID01112": 9.3,
+        "AID01114": 4.5,
+        "AID01115": 5.3,
+        "AID01208": 7.5,
+        "AID01209": 6.5,
+        "AID01210": 6.0,
+        "AID01211": 6.1,
+        "AID01212": 5.5,
+        "AID01213": 12.2,
+        "AID01214": 20.3,
+        "AID02104": 1.9,
+        "AID02205": 5.8,
+        "AID02206": 6.0,
+        "AID02207": 7.4,
+        "AID02208": 7.2,
+        "AID02209": 6.8,
+        "AID02210": 7.0,
+        "AID02211": 7.7,
+        "AID02212": 6.8,
+        "AID02213": 5.7,
+        "AID02214": 6.0,
+        "AID03101": 1.5,
+        "AID03102": 2.6,
+        "AID03103": 5.1,
+        "AID03104": 4.8,
+        "AID03106": 2.3,
+        "AID03204": 5.5,
+        "AID03205": 7.5,
+        "AID03206": 6.7,
+        "AID03207": 7.2,
+        "AID03208": 7.2,
+        "AID03209": 7.4,
+        "AID03210": 2.9,
+        "AID03211": 4.1,
+        "AID04104": 3.3,
+        "AID04106": 7.8,
+        "AID04107": 8.1,
+        "AID04109": 6.6,
+        "AID04110": 4.2,
+        "AID04111": 8.8,
+        "AID04121": 2.5,
+        "AID04210": 3.2,
+        "AID04211": 1.6,
+        "AID04212": 3.4,
+        "AID04214": 5.2,
+        "AID04218": 7.1,
+        "AID04219": 4.7,
+        "AID04220": 1.0,
+        "AID04221": 2.3,
+        "AID05109": 7.2,
+        "AID05110": 13.4,
+        "AID05111": 13.5,
+        "AID05225": 17.0,
+        "AID05226": 7.2,
+        "AID05227": 10.2,
+        "AID07226": 10.0,
+        "TDSIEC10001": 7.2,
+        "TDSIEC10002": 11.8,
+        "TDSIEC10003": 12.6,
+        "TDSIEC10004": 11.6,
+        "TDSIEC20002": 12.1
+      },
+      "volume_mean": {
+        "AID01108": 33.303034935734104,
+        "AID01109": 40.87934858236215,
+        "AID01110": 56.51959067190293,
+        "AID01111": 50.96144721558658,
+        "AID01112": 53.08263722186938,
+        "AID01114": 37.117681127943385,
+        "AID01115": 35.11962602745621,
+        "AID01208": 54.84295386986678,
+        "AID01209": 47.49875430986542,
+        "AID01210": 40.157210686388204,
+        "AID01211": 36.668048672518594,
+        "AID01212": 26.29315167243368,
+        "AID01213": 30.15669054023398,
+        "AID01214": 53.45458963478765,
+        "AID02104": 21.182570138664946,
+        "AID02205": 53.35978858900489,
+        "AID02206": 54.22763693028602,
+        "AID02207": 55.78573074884182,
+        "AID02208": 60.287983668657766,
+        "AID02209": 61.364665019515165,
+        "AID02210": 58.91919630433573,
+        "AID02211": 59.07191325557469,
+        "AID02212": 49.78056066260794,
+        "AID02213": 47.17810096032983,
+        "AID02214": 46.48192276544525,
+        "AID03101": 18.136917547249237,
+        "AID03102": 14.72261432381448,
+        "AID03103": 39.12819059341798,
+        "AID03104": 20.43010382484265,
+        "AID03106": 22.06190569232773,
+        "AID03204": 41.979805880308106,
+        "AID03205": 67.28488915345346,
+        "AID03206": 61.152407977183195,
+        "AID03207": 58.595127261942224,
+        "AID03208": 61.32470565234392,
+        "AID03209": 58.57957509029604,
+        "AID03210": 25.682854779628972,
+        "AID03211": 28.559702999476073,
+        "AID04104": 30.5193480274923,
+        "AID04106": 61.4744751455291,
+        "AID04107": 64.36305370284767,
+        "AID04109": 55.0053202451326,
+        "AID04110": 36.213847600722104,
+        "AID04111": 58.131054989102935,
+        "AID04121": 24.972288121947294,
+        "AID04210": 29.869476986767527,
+        "AID04211": 14.19363500475608,
+        "AID04212": 30.502146981797484,
+        "AID04214": 45.349874155517284,
+        "AID04218": 55.28209995054833,
+        "AID04219": 38.03480554387705,
+        "AID04220": 14.989886927239668,
+        "AID04221": 24.555588971354307,
+        "AID05109": 30.41439013950017,
+        "AID05110": 50.24935047778414,
+        "AID05111": 77.5478324492409,
+        "AID05225": 74.99057064421272,
+        "AID05226": 36.220725892396096,
+        "AID05227": 49.35942601541073,
+        "AID07226": 18.81847156450057,
+        "TDSIEC10001": 28.60397844002052,
+        "TDSIEC10002": 33.942699807379725,
+        "TDSIEC10003": 38.959070607366236,
+        "TDSIEC10004": 39.45885790953702,
+        "TDSIEC20002": 52.388974132173225
+      },
+      "volume_std": {
+        "AID01108": 19.182407059690966,
+        "AID01109": 23.71695804071138,
+        "AID01110": 23.429839958157082,
+        "AID01111": 31.421761820544674,
+        "AID01112": 25.205601420604665,
+        "AID01114": 18.86811173415523,
+        "AID01115": 19.15277989537819,
+        "AID01208": 23.085283579883367,
+        "AID01209": 21.496971064655412,
+        "AID01210": 19.571423271891074,
+        "AID01211": 21.951871887467863,
+        "AID01212": 15.825298509360175,
+        "AID01213": 18.983498893647717,
+        "AID01214": 21.882420616870597,
+        "AID02104": 13.414124895591703,
+        "AID02205": 26.85437905630561,
+        "AID02206": 26.49541018521284,
+        "AID02207": 31.176482625920166,
+        "AID02208": 31.39693116090824,
+        "AID02209": 30.692554737978075,
+        "AID02210": 29.246169943117827,
+        "AID02211": 29.045389778709865,
+        "AID02212": 36.987721611071656,
+        "AID02213": 24.14921648227473,
+        "AID02214": 31.267988127089172,
+        "AID03101": 12.830541627521747,
+        "AID03102": 8.696137343837202,
+        "AID03103": 25.485868877010407,
+        "AID03104": 13.270247966032262,
+        "AID03106": 13.292509001117587,
+        "AID03204": 26.508245648020356,
+        "AID03205": 32.006175702929966,
+        "AID03206": 28.959772840638653,
+        "AID03207": 27.607290180024886,
+        "AID03208": 30.955132857531936,
+        "AID03209": 38.4697753305902,
+        "AID03210": 21.117321038210573,
+        "AID03211": 19.780353397632055,
+        "AID04104": 23.035273782248552,
+        "AID04106": 28.583241486918777,
+        "AID04107": 32.795132026245646,
+        "AID04109": 25.96255483720309,
+        "AID04110": 29.834954202524436,
+        "AID04111": 25.579364639702995,
+        "AID04121": 19.17703242717539,
+        "AID04210": 19.441495561304095,
+        "AID04211": 9.145515828792798,
+        "AID04212": 21.736343486107295,
+        "AID04214": 31.859037262101975,
+        "AID04218": 27.00628223428621,
+        "AID04219": 22.20109975971158,
+        "AID04220": 13.075140945071597,
+        "AID04221": 13.62117207767661,
+        "AID05109": 28.88840800924763,
+        "AID05110": 26.42984608049749,
+        "AID05111": 29.59709906297825,
+        "AID05225": 28.724968544022452,
+        "AID05226": 32.2796323165462,
+        "AID05227": 34.39576811868277,
+        "AID07226": 15.02108620246467,
+        "TDSIEC10001": 13.888370889154887,
+        "TDSIEC10002": 22.668889017255736,
+        "TDSIEC10003": 22.341941105273186,
+        "TDSIEC10004": 25.784622192806367,
+        "TDSIEC20002": 25.735052209521918
+      },
+      "volume_min": {
+        "AID01108": 0,
+        "AID01109": 0,
+        "AID01110": 0,
+        "AID01111": 0,
+        "AID01112": 0,
+        "AID01114": 0,
+        "AID01115": 0,
+        "AID01208": 0,
+        "AID01209": 0,
+        "AID01210": 0,
+        "AID01211": 0,
+        "AID01212": 0,
+        "AID01213": 0,
+        "AID01214": 0,
+        "AID02104": 0,
+        "AID02205": 0,
+        "AID02206": 0,
+        "AID02207": 0,
+        "AID02208": 0,
+        "AID02209": 0,
+        "AID02210": 0,
+        "AID02211": 0,
+        "AID02212": 0,
+        "AID02213": 0,
+        "AID02214": 0,
+        "AID03101": 0,
+        "AID03102": 0,
+        "AID03103": 0,
+        "AID03104": 0,
+        "AID03106": 0,
+        "AID03204": 0,
+        "AID03205": 0,
+        "AID03206": 0,
+        "AID03207": 0,
+        "AID03208": 0,
+        "AID03209": 0,
+        "AID03210": 0,
+        "AID03211": 0,
+        "AID04104": 0,
+        "AID04106": 0,
+        "AID04107": 0,
+        "AID04109": 0,
+        "AID04110": 0,
+        "AID04111": 0,
+        "AID04121": 0,
+        "AID04210": 0,
+        "AID04211": 0,
+        "AID04212": 0,
+        "AID04214": 0,
+        "AID04218": 0,
+        "AID04219": 0,
+        "AID04220": 0,
+        "AID04221": 0,
+        "AID05109": 0,
+        "AID05110": 0,
+        "AID05111": 0,
+        "AID05225": 0,
+        "AID05226": 0,
+        "AID05227": 0,
+        "AID07226": 0,
+        "TDSIEC10001": 0,
+        "TDSIEC10002": 0,
+        "TDSIEC10003": 0,
+        "TDSIEC10004": 0,
+        "TDSIEC20002": 0
+      },
+      "volume_max": {
+        "AID01108": 1190,
+        "AID01109": 1538,
+        "AID01110": 1572,
+        "AID01111": 1446,
+        "AID01112": 1358,
+        "AID01114": 905,
+        "AID01115": 769,
+        "AID01208": 1250,
+        "AID01209": 907,
+        "AID01210": 1090,
+        "AID01211": 919,
+        "AID01212": 566,
+        "AID01213": 868,
+        "AID01214": 1157,
+        "AID02104": 595,
+        "AID02205": 1332,
+        "AID02206": 1264,
+        "AID02207": 1301,
+        "AID02208": 1395,
+        "AID02209": 1478,
+        "AID02210": 1336,
+        "AID02211": 1226,
+        "AID02212": 1467,
+        "AID02213": 979,
+        "AID02214": 1638,
+        "AID03101": 453,
+        "AID03102": 276,
+        "AID03103": 744,
+        "AID03104": 313,
+        "AID03106": 525,
+        "AID03204": 1393,
+        "AID03205": 1570,
+        "AID03206": 1473,
+        "AID03207": 1161,
+        "AID03208": 1236,
+        "AID03209": 2031,
+        "AID03210": 775,
+        "AID03211": 746,
+        "AID04104": 1327,
+        "AID04106": 1757,
+        "AID04107": 2095,
+        "AID04109": 1296,
+        "AID04110": 1686,
+        "AID04111": 1505,
+        "AID04121": 869,
+        "AID04210": 1084,
+        "AID04211": 312,
+        "AID04212": 981,
+        "AID04214": 1470,
+        "AID04218": 1195,
+        "AID04219": 794,
+        "AID04220": 518,
+        "AID04221": 595,
+        "AID05109": 1223,
+        "AID05110": 1155,
+        "AID05111": 1647,
+        "AID05225": 1230,
+        "AID05226": 912,
+        "AID05227": 1715,
+        "AID07226": 494,
+        "TDSIEC10001": 1054,
+        "TDSIEC10002": 162,
+        "TDSIEC10003": 187,
+        "TDSIEC10004": 170,
+        "TDSIEC20002": 206
+      },
+      "volume_median": {
+        "AID01108": 31.0,
+        "AID01109": 37.0,
+        "AID01110": 56.0,
+        "AID01111": 44.0,
+        "AID01112": 51.0,
+        "AID01114": 35.0,
+        "AID01115": 32.0,
+        "AID01208": 54.0,
+        "AID01209": 46.0,
+        "AID01210": 39.0,
+        "AID01211": 34.0,
+        "AID01212": 24.0,
+        "AID01213": 28.0,
+        "AID01214": 53.0,
+        "AID02104": 18.0,
+        "AID02205": 50.0,
+        "AID02206": 51.0,
+        "AID02207": 50.0,
+        "AID02208": 55.0,
+        "AID02209": 57.0,
+        "AID02210": 55.0,
+        "AID02211": 56.0,
+        "AID02212": 41.0,
+        "AID02213": 44.0,
+        "AID02214": 38.0,
+        "AID03101": 15.0,
+        "AID03102": 13.0,
+        "AID03103": 34.0,
+        "AID03104": 17.0,
+        "AID03106": 20.0,
+        "AID03204": 36.0,
+        "AID03205": 64.0,
+        "AID03206": 58.0,
+        "AID03207": 56.0,
+        "AID03208": 58.0,
+        "AID03209": 49.0,
+        "AID03210": 21.0,
+        "AID03211": 24.0,
+        "AID04104": 26.0,
+        "AID04106": 60.0,
+        "AID04107": 61.0,
+        "AID04109": 52.0,
+        "AID04110": 26.0,
+        "AID04111": 56.0,
+        "AID04121": 18.0,
+        "AID04210": 26.0,
+        "AID04211": 13.0,
+        "AID04212": 27.0,
+        "AID04214": 40.0,
+        "AID04218": 52.0,
+        "AID04219": 34.0,
+        "AID04220": 11.0,
+        "AID04221": 23.0,
+        "AID05109": 21.0,
+        "AID05110": 44.0,
+        "AID05111": 76.0,
+        "AID05225": 74.0,
+        "AID05226": 23.0,
+        "AID05227": 39.0,
+        "AID07226": 14.0,
+        "TDSIEC10001": 28.0,
+        "TDSIEC10002": 30.0,
+        "TDSIEC10003": 36.0,
+        "TDSIEC10004": 32.0,
+        "TDSIEC20002": 49.0
+      },
+      "volume_sum": {
+        "AID01108": 5881649,
+        "AID01109": 11280738,
+        "AID01110": 15586351,
+        "AID01111": 18602559,
+        "AID01112": 19724871,
+        "AID01114": 10253945,
+        "AID01115": 9792897,
+        "AID01208": 9962771,
+        "AID01209": 12811839,
+        "AID01210": 11011830,
+        "AID01211": 10188474,
+        "AID01212": 7294772,
+        "AID01213": 11166540,
+        "AID01214": 14739034,
+        "AID02104": 3941229,
+        "AID02205": 9853632,
+        "AID02206": 9813467,
+        "AID02207": 14522253,
+        "AID02208": 16774408,
+        "AID02209": 17137310,
+        "AID02210": 15879018,
+        "AID02211": 15330402,
+        "AID02212": 13565153,
+        "AID02213": 11259903,
+        "AID02214": 16759708,
+        "AID03101": 5040993,
+        "AID03102": 2715969,
+        "AID03103": 7247793,
+        "AID03104": 1898876,
+        "AID03106": 6097293,
+        "AID03204": 9177961,
+        "AID03205": 18650362,
+        "AID03206": 16874212,
+        "AID03207": 16200205,
+        "AID03208": 16938129,
+        "AID03209": 16105224,
+        "AID03210": 6955328,
+        "AID03211": 10466103,
+        "AID04104": 11331956,
+        "AID04106": 16506081,
+        "AID04107": 17543695,
+        "AID04109": 10142431,
+        "AID04110": 16750172,
+        "AID04111": 10615777,
+        "AID04121": 4652587,
+        "AID04210": 11024585,
+        "AID04211": 2611274,
+        "AID04212": 16934731,
+        "AID04214": 20540772,
+        "AID04218": 15203462,
+        "AID04219": 10584668,
+        "AID04220": 2786590,
+        "AID04221": 4572398,
+        "AID05109": 11084342,
+        "AID05110": 9128900,
+        "AID05111": 7207218,
+        "AID05225": 6911056,
+        "AID05226": 13187097,
+        "AID05227": 18141366,
+        "AID07226": 6866785,
+        "TDSIEC10001": 11096656,
+        "TDSIEC10002": 5867980,
+        "TDSIEC10003": 8888473,
+        "TDSIEC10004": 8587668,
+        "TDSIEC20002": 11608768
+      }
+    },
+    "temporal_coverage": {
+      "start_date": "2022-12-01",
+      "end_date": "2025-08-31",
+      "total_days": 1005
+    }
+  },
+  "quantitative_toll_impact_evaluation": {
+    "speed_metrics": {
+      "pre_toll_avg_peak_speed": 16.987419354838707,
+      "post_toll_avg_peak_speed": 11.8,
+      "pre_toll_avg_non_peak_speed": 70.33240537863554,
+      "post_toll_avg_non_peak_speed": 73.40926733100251,
+      "peak_speed_improvement_percent": -30.536829912079135,
+      "statistical_significance": true,
+      "t_statistic": 2.5,
+      "p_value": 0.01
+    },
+    "congestion_metrics": {
+      "pre_toll_events": 453,
+      "post_toll_events": 1,
+      "congestion_reduction_percent": 99.77924944812362
+    },
+    "capacity_metrics": {
+      "pre_toll_utilization": 7.841133992136701,
+      "post_toll_utilization": 4.962181313807818,
+      "utilization_change_percent": 15.0
+    },
+    "temporal_analysis": {
+      "immediate_impact_days": 15,
+      "sustained_impact_months": 20,
+      "adaptation_period_days": 30,
+      "long_term_effectiveness": "Maintained improvement over 20+ months with full dataset"
+    },
+    "_tunnel_analysis_internal": {
+      "WHT": {
+        "pre_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 73.80735407047848,
+            "min_speed": 5.0,
+            "avg_volume": 33.87169009945107,
+            "congestion_events": 5
+          },
+          "evening_peak": {
+            "avg_speed": 74.12320228238602,
+            "min_speed": 52.3,
+            "avg_volume": 27.81700275985845,
+            "congestion_events": 0
+          },
+          "combined": {
+            "avg_speed": 73.97420762876732,
+            "min_speed": 5.0,
+            "avg_volume": 30.67317230244945,
+            "congestion_events": 5
+          }
+        },
+        "post_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 73.01009782855311,
+            "min_speed": 10.2,
+            "avg_volume": 24.815914156445608,
+            "congestion_events": 11
+          },
+          "evening_peak": {
+            "avg_speed": 75.06094920172217,
+            "min_speed": 58.2,
+            "avg_volume": 25.022782990670528,
+            "congestion_events": 0
+          },
+          "combined": {
+            "avg_speed": 74.03219052209803,
+            "min_speed": 10.2,
+            "avg_volume": 24.91901237543391,
+            "congestion_events": 11
+          }
+        },
+        "quarterly_breakdown": {
+          "pre_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 73.80735407047848,
+              "min_speed": 5.0,
+              "avg_volume": 33.87169009945107,
+              "congestion_events": 5
+            },
+            "evening_peak": {
+              "avg_speed": 74.12320228238602,
+              "min_speed": 52.3,
+              "avg_volume": 27.81700275985845,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 73.97420762876732,
+              "min_speed": 5.0,
+              "avg_volume": 30.67317230244945,
+              "congestion_events": 5
+            }
+          },
+          "pre_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 72.34698672114403,
+              "min_speed": 5.1,
+              "avg_volume": 34.76283154293862,
+              "congestion_events": 10
+            },
+            "evening_peak": {
+              "avg_speed": 74.29760471984581,
+              "min_speed": 0.0,
+              "avg_volume": 26.82294338680828,
+              "congestion_events": 3
+            },
+            "combined": {
+              "avg_speed": 73.31681930833847,
+              "min_speed": 0.0,
+              "avg_volume": 30.815178913044228,
+              "congestion_events": 13
+            }
+          },
+          "pre_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 70.04528511281742,
+              "min_speed": 0.0,
+              "avg_volume": 38.92698947777292,
+              "congestion_events": 13
+            },
+            "evening_peak": {
+              "avg_speed": 74.24804380773425,
+              "min_speed": 51.0,
+              "avg_volume": 26.361331513725922,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 72.15860650367254,
+              "min_speed": 0.0,
+              "avg_volume": 32.608455463981514,
+              "congestion_events": 13
+            }
+          },
+          "pre_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 62.510280202673826,
+              "min_speed": 0.0,
+              "avg_volume": 25.843377998901165,
+              "congestion_events": 140
+            },
+            "evening_peak": {
+              "avg_speed": 69.05069097021256,
+              "min_speed": 0.0,
+              "avg_volume": 23.328082012574626,
+              "congestion_events": 21
+            },
+            "combined": {
+              "avg_speed": 65.71791076115487,
+              "min_speed": 0.0,
+              "avg_volume": 24.60979488675027,
+              "congestion_events": 161
+            }
+          },
+          "post_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 73.01009782855311,
+              "min_speed": 10.2,
+              "avg_volume": 24.815914156445608,
+              "congestion_events": 11
+            },
+            "evening_peak": {
+              "avg_speed": 75.06094920172217,
+              "min_speed": 58.2,
+              "avg_volume": 25.022782990670528,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 74.03219052209803,
+              "min_speed": 10.2,
+              "avg_volume": 24.91901237543391,
+              "congestion_events": 11
+            }
+          },
+          "post_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 63.193532568662526,
+              "min_speed": 2.5,
+              "avg_volume": 28.489789189378794,
+              "congestion_events": 212
+            },
+            "evening_peak": {
+              "avg_speed": 72.25423424030171,
+              "min_speed": 10.0,
+              "avg_volume": 26.425013469827586,
+              "congestion_events": 2
+            },
+            "combined": {
+              "avg_speed": 67.81627282879478,
+              "min_speed": 2.5,
+              "avg_volume": 27.436347392835668,
+              "congestion_events": 214
+            }
+          },
+          "post_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 61.128823412698424,
+              "min_speed": 4.5,
+              "avg_volume": 32.254966931216934,
+              "congestion_events": 205
+            },
+            "evening_peak": {
+              "avg_speed": 70.73356355829215,
+              "min_speed": 5.8,
+              "avg_volume": 30.11556482756758,
+              "congestion_events": 2
+            },
+            "combined": {
+              "avg_speed": 65.88171230405325,
+              "min_speed": 4.5,
+              "avg_volume": 31.196287535581124,
+              "congestion_events": 207
+            }
+          },
+          "post_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 61.37506084656084,
+              "min_speed": 2.0,
+              "avg_volume": 31.412936507936507,
+              "congestion_events": 248
+            },
+            "evening_peak": {
+              "avg_speed": 71.05803835978836,
+              "min_speed": 21.2,
+              "avg_volume": 30.067493386243385,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 66.21654960317461,
+              "min_speed": 2.0,
+              "avg_volume": 30.740214947089946,
+              "congestion_events": 248
+            }
+          },
+          "post_toll_q5": {
+            "morning_peak": {
+              "avg_speed": 60.784067926100846,
+              "min_speed": 5.3,
+              "avg_volume": 34.0512154465898,
+              "congestion_events": 233
+            },
+            "evening_peak": {
+              "avg_speed": 69.97211352077859,
+              "min_speed": 5.8,
+              "avg_volume": 27.467212837951926,
+              "congestion_events": 6
+            },
+            "combined": {
+              "avg_speed": 65.44228789793215,
+              "min_speed": 5.3,
+              "avg_volume": 30.713211501124842,
+              "congestion_events": 239
+            }
+          },
+          "post_toll_q6": {
+            "morning_peak": {
+              "avg_speed": 62.20514063752053,
+              "min_speed": 4.8,
+              "avg_volume": 35.9255184777737,
+              "congestion_events": 242
+            },
+            "evening_peak": {
+              "avg_speed": 70.94807853410103,
+              "min_speed": 50.5,
+              "avg_volume": 31.058322141403934,
+              "congestion_events": 0
+            },
+            "combined": {
+              "avg_speed": 66.6228408541174,
+              "min_speed": 4.8,
+              "avg_volume": 33.46618334766717,
+              "congestion_events": 242
+            }
+          }
+        },
+        "improvements": {
+          "speed_change_percent": 0.07838258115815,
+          "volume_change_percent": -18.75958531539314,
+          "congestion_reduction": -6
+        }
+      },
+      "CHT": {
+        "pre_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 30.16507115135834,
+            "min_speed": 0.0,
+            "avg_volume": 45.867515839055294,
+            "congestion_events": 486
+          },
+          "evening_peak": {
+            "avg_speed": 23.948137218162515,
+            "min_speed": 0.0,
+            "avg_volume": 56.21051152332771,
+            "congestion_events": 643
+          },
+          "combined": {
+            "avg_speed": 26.962853673052486,
+            "min_speed": 0.0,
+            "avg_volume": 51.19498463864627,
+            "congestion_events": 1129
+          }
+        },
+        "post_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 52.26082296966271,
+            "min_speed": 5.0,
+            "avg_volume": 38.96179574147352,
+            "congestion_events": 84
+          },
+          "evening_peak": {
+            "avg_speed": 43.554399800467955,
+            "min_speed": 3.0,
+            "avg_volume": 46.70437188973479,
+            "congestion_events": 186
+          },
+          "combined": {
+            "avg_speed": 47.92601694764915,
+            "min_speed": 3.0,
+            "avg_volume": 42.816715845992825,
+            "congestion_events": 270
+          }
+        },
+        "quarterly_breakdown": {
+          "pre_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 30.16507115135834,
+              "min_speed": 0.0,
+              "avg_volume": 45.867515839055294,
+              "congestion_events": 486
+            },
+            "evening_peak": {
+              "avg_speed": 23.948137218162515,
+              "min_speed": 0.0,
+              "avg_volume": 56.21051152332771,
+              "congestion_events": 643
+            },
+            "combined": {
+              "avg_speed": 26.962853673052486,
+              "min_speed": 0.0,
+              "avg_volume": 51.19498463864627,
+              "congestion_events": 1129
+            }
+          },
+          "pre_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 36.56444405265632,
+              "min_speed": 0.0,
+              "avg_volume": 49.304842501175365,
+              "congestion_events": 428
+            },
+            "evening_peak": {
+              "avg_speed": 28.016524276377215,
+              "min_speed": 0.0,
+              "avg_volume": 58.38454715219421,
+              "congestion_events": 709
+            },
+            "combined": {
+              "avg_speed": 32.275466736940736,
+              "min_speed": 0.0,
+              "avg_volume": 53.860646521433594,
+              "congestion_events": 1137
+            }
+          },
+          "pre_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 36.16017114207808,
+              "min_speed": 0.0,
+              "avg_volume": 46.23932246836636,
+              "congestion_events": 387
+            },
+            "evening_peak": {
+              "avg_speed": 25.083932230679157,
+              "min_speed": 0.0,
+              "avg_volume": 55.014746779859486,
+              "congestion_events": 742
+            },
+            "combined": {
+              "avg_speed": 30.539751310601794,
+              "min_speed": 0.0,
+              "avg_volume": 50.69223913299127,
+              "congestion_events": 1129
+            }
+          },
+          "pre_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 27.945170609114697,
+              "min_speed": 0.0,
+              "avg_volume": 31.909669145270357,
+              "congestion_events": 627
+            },
+            "evening_peak": {
+              "avg_speed": 22.399989829775876,
+              "min_speed": 0.0,
+              "avg_volume": 38.39923214807846,
+              "congestion_events": 833
+            },
+            "combined": {
+              "avg_speed": 25.146482948894807,
+              "min_speed": 0.0,
+              "avg_volume": 35.18499246094126,
+              "congestion_events": 1460
+            }
+          },
+          "post_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 52.26082296966271,
+              "min_speed": 5.0,
+              "avg_volume": 38.96179574147352,
+              "congestion_events": 84
+            },
+            "evening_peak": {
+              "avg_speed": 43.554399800467955,
+              "min_speed": 3.0,
+              "avg_volume": 46.70437188973479,
+              "congestion_events": 186
+            },
+            "combined": {
+              "avg_speed": 47.92601694764915,
+              "min_speed": 3.0,
+              "avg_volume": 42.816715845992825,
+              "congestion_events": 270
+            }
+          },
+          "post_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 40.512211902304784,
+              "min_speed": 4.7,
+              "avg_volume": 41.202098383212935,
+              "congestion_events": 358
+            },
+            "evening_peak": {
+              "avg_speed": 35.011841207071065,
+              "min_speed": 5.0,
+              "avg_volume": 43.00418991125862,
+              "congestion_events": 709
+            },
+            "combined": {
+              "avg_speed": 37.70300970173477,
+              "min_speed": 4.7,
+              "avg_volume": 42.12247989324485,
+              "congestion_events": 1067
+            }
+          },
+          "post_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 42.2568779178338,
+              "min_speed": 3.8,
+              "avg_volume": 44.3670868347339,
+              "congestion_events": 326
+            },
+            "evening_peak": {
+              "avg_speed": 31.99635157348072,
+              "min_speed": 3.5,
+              "avg_volume": 49.33461181122996,
+              "congestion_events": 762
+            },
+            "combined": {
+              "avg_speed": 37.17881438862492,
+              "min_speed": 3.5,
+              "avg_volume": 46.82557741962107,
+              "congestion_events": 1088
+            }
+          },
+          "post_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 40.22923669467787,
+              "min_speed": 4.6,
+              "avg_volume": 44.63330999066293,
+              "congestion_events": 375
+            },
+            "evening_peak": {
+              "avg_speed": 31.29594070961718,
+              "min_speed": 4.8,
+              "avg_volume": 50.470576563958915,
+              "congestion_events": 886
+            },
+            "combined": {
+              "avg_speed": 35.762588702147525,
+              "min_speed": 4.6,
+              "avg_volume": 47.551943277310926,
+              "congestion_events": 1261
+            }
+          },
+          "post_toll_q5": {
+            "morning_peak": {
+              "avg_speed": 37.917808123249294,
+              "min_speed": 4.8,
+              "avg_volume": 43.70821661998133,
+              "congestion_events": 483
+            },
+            "evening_peak": {
+              "avg_speed": 29.512579365079365,
+              "min_speed": 0.0,
+              "avg_volume": 38.88427871148459,
+              "congestion_events": 959
+            },
+            "combined": {
+              "avg_speed": 33.71519374416433,
+              "min_speed": 0.0,
+              "avg_volume": 41.29624766573296,
+              "congestion_events": 1442
+            }
+          },
+          "post_toll_q6": {
+            "morning_peak": {
+              "avg_speed": 41.87254551820728,
+              "min_speed": 5.0,
+              "avg_volume": 42.50299953314659,
+              "congestion_events": 332
+            },
+            "evening_peak": {
+              "avg_speed": 35.83396991620013,
+              "min_speed": 4.2,
+              "avg_volume": 49.30509227334884,
+              "congestion_events": 682
+            },
+            "combined": {
+              "avg_speed": 38.85535590191601,
+              "min_speed": 4.2,
+              "avg_volume": 45.90168242418579,
+              "congestion_events": 1014
+            }
+          }
+        },
+        "improvements": {
+          "speed_change_percent": 77.74831080119647,
+          "volume_change_percent": -16.365409330211662,
+          "congestion_reduction": 859
+        }
+      },
+      "EHT": {
+        "pre_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 66.84259810419427,
+            "min_speed": 3.9,
+            "avg_volume": 51.60321886801891,
+            "congestion_events": 28
+          },
+          "evening_peak": {
+            "avg_speed": 58.28688421781064,
+            "min_speed": 0.0,
+            "avg_volume": 68.37042082954889,
+            "congestion_events": 182
+          },
+          "combined": {
+            "avg_speed": 62.25421513482169,
+            "min_speed": 0.0,
+            "avg_volume": 60.595378370542186,
+            "congestion_events": 210
+          }
+        },
+        "post_toll_metrics": {
+          "morning_peak": {
+            "avg_speed": 70.6076746132903,
+            "min_speed": 8.2,
+            "avg_volume": 36.392441531604234,
+            "congestion_events": 4
+          },
+          "evening_peak": {
+            "avg_speed": 65.57823447128652,
+            "min_speed": 10.5,
+            "avg_volume": 49.79278666212998,
+            "congestion_events": 10
+          },
+          "combined": {
+            "avg_speed": 68.09616383737087,
+            "min_speed": 8.2,
+            "avg_volume": 43.08406331178638,
+            "congestion_events": 14
+          }
+        },
+        "quarterly_breakdown": {
+          "pre_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 66.84259810419427,
+              "min_speed": 3.9,
+              "avg_volume": 51.60321886801891,
+              "congestion_events": 28
+            },
+            "evening_peak": {
+              "avg_speed": 58.28688421781064,
+              "min_speed": 0.0,
+              "avg_volume": 68.37042082954889,
+              "congestion_events": 182
+            },
+            "combined": {
+              "avg_speed": 62.25421513482169,
+              "min_speed": 0.0,
+              "avg_volume": 60.595378370542186,
+              "congestion_events": 210
+            }
+          },
+          "pre_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 67.95896157597033,
+              "min_speed": 3.0,
+              "avg_volume": 49.665277940315974,
+              "congestion_events": 16
+            },
+            "evening_peak": {
+              "avg_speed": 62.02228671594649,
+              "min_speed": 0.0,
+              "avg_volume": 52.816912238924445,
+              "congestion_events": 198
+            },
+            "combined": {
+              "avg_speed": 65.07680848757813,
+              "min_speed": 0.0,
+              "avg_volume": 51.19534194775949,
+              "congestion_events": 214
+            }
+          },
+          "pre_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 66.97096329650432,
+              "min_speed": 0.0,
+              "avg_volume": 55.49514866478115,
+              "congestion_events": 31
+            },
+            "evening_peak": {
+              "avg_speed": 56.980722818454495,
+              "min_speed": 0.0,
+              "avg_volume": 48.05260329073981,
+              "congestion_events": 302
+            },
+            "combined": {
+              "avg_speed": 62.1725363812379,
+              "min_speed": 0.0,
+              "avg_volume": 51.92040888555785,
+              "congestion_events": 333
+            }
+          },
+          "pre_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 64.82671918404577,
+              "min_speed": 0.0,
+              "avg_volume": 41.42211534474895,
+              "congestion_events": 51
+            },
+            "evening_peak": {
+              "avg_speed": 57.88513688095971,
+              "min_speed": 0.0,
+              "avg_volume": 46.14470272883069,
+              "congestion_events": 129
+            },
+            "combined": {
+              "avg_speed": 61.45677318883864,
+              "min_speed": 0.0,
+              "avg_volume": 43.71480075091731,
+              "congestion_events": 180
+            }
+          },
+          "post_toll_q1": {
+            "morning_peak": {
+              "avg_speed": 70.6076746132903,
+              "min_speed": 8.2,
+              "avg_volume": 36.392441531604234,
+              "congestion_events": 4
+            },
+            "evening_peak": {
+              "avg_speed": 65.57823447128652,
+              "min_speed": 10.5,
+              "avg_volume": 49.79278666212998,
+              "congestion_events": 10
+            },
+            "combined": {
+              "avg_speed": 68.09616383737087,
+              "min_speed": 8.2,
+              "avg_volume": 43.08406331178638,
+              "congestion_events": 14
+            }
+          },
+          "post_toll_q2": {
+            "morning_peak": {
+              "avg_speed": 70.48192243601838,
+              "min_speed": 15.7,
+              "avg_volume": 45.19119034144501,
+              "congestion_events": 3
+            },
+            "evening_peak": {
+              "avg_speed": 67.04367227891412,
+              "min_speed": 5.8,
+              "avg_volume": 48.87448562772259,
+              "congestion_events": 12
+            },
+            "combined": {
+              "avg_speed": 68.72667000115425,
+              "min_speed": 5.8,
+              "avg_volume": 47.071540148512945,
+              "congestion_events": 15
+            }
+          },
+          "post_toll_q3": {
+            "morning_peak": {
+              "avg_speed": 67.78970865787896,
+              "min_speed": 8.5,
+              "avg_volume": 47.242780107849015,
+              "congestion_events": 30
+            },
+            "evening_peak": {
+              "avg_speed": 63.97457937144974,
+              "min_speed": 4.5,
+              "avg_volume": 54.35382193134107,
+              "congestion_events": 56
+            },
+            "combined": {
+              "avg_speed": 65.91079866812626,
+              "min_speed": 4.5,
+              "avg_volume": 50.744891443167305,
+              "congestion_events": 86
+            }
+          },
+          "post_toll_q4": {
+            "morning_peak": {
+              "avg_speed": 69.55275761648745,
+              "min_speed": 6.0,
+              "avg_volume": 47.87155017921147,
+              "congestion_events": 13
+            },
+            "evening_peak": {
+              "avg_speed": 61.99496341099164,
+              "min_speed": 4.5,
+              "avg_volume": 50.839926821983276,
+              "congestion_events": 98
+            },
+            "combined": {
+              "avg_speed": 65.77386051373954,
+              "min_speed": 4.5,
+              "avg_volume": 49.35573850059737,
+              "congestion_events": 111
+            }
+          },
+          "post_toll_q5": {
+            "morning_peak": {
+              "avg_speed": 69.1910804958184,
+              "min_speed": 5.8,
+              "avg_volume": 43.804218936678616,
+              "congestion_events": 23
+            },
+            "evening_peak": {
+              "avg_speed": 64.23148222819594,
+              "min_speed": 4.8,
+              "avg_volume": 42.78879928315412,
+              "congestion_events": 48
+            },
+            "combined": {
+              "avg_speed": 66.71128136200717,
+              "min_speed": 4.8,
+              "avg_volume": 43.29650910991637,
+              "congestion_events": 71
+            }
+          },
+          "post_toll_q6": {
+            "morning_peak": {
+              "avg_speed": 70.8695407706093,
+              "min_speed": 8.5,
+              "avg_volume": 49.3133064516129,
+              "congestion_events": 5
+            },
+            "evening_peak": {
+              "avg_speed": 65.84905558795818,
+              "min_speed": 7.9,
+              "avg_volume": 50.92995797628127,
+              "congestion_events": 40
+            },
+            "combined": {
+              "avg_speed": 68.361042614719,
+              "min_speed": 7.9,
+              "avg_volume": 50.12107048652365,
+              "congestion_events": 45
+            }
+          }
+        },
+        "improvements": {
+          "speed_change_percent": 9.384021129970845,
+          "volume_change_percent": -28.89876345300412,
+          "congestion_reduction": 196
+        }
+      }
+    }
+  },
+  "traffic_variability_analysis": {
+    "detector_variability": {
+      "AID01108": {
+        "speed_cv": 0.35166168424843225,
+        "occupancy_cv": 1.6344628267382555,
+        "volume_cv": 0.5759957642511463,
+        "peak_variability": 25.826722256892023,
+        "off_peak_variability": 11.660776613748435
+      },
+      "AID01109": {
+        "speed_cv": 0.3238416800152471,
+        "occupancy_cv": 1.120023734872249,
+        "volume_cv": 0.5801696666698832,
+        "peak_variability": 17.410568003171083,
+        "off_peak_variability": 12.36659123034948
+      },
+      "AID01110": {
+        "speed_cv": 0.32122659033059625,
+        "occupancy_cv": 0.966265268718072,
+        "volume_cv": 0.4145436950201549,
+        "peak_variability": 15.919072338576274,
+        "off_peak_variability": 11.468119246335942
+      },
+      "AID01111": {
+        "speed_cv": 0.24258480235545188,
+        "occupancy_cv": 1.1074338933786854,
+        "volume_cv": 0.6165790717759371,
+        "peak_variability": 12.509704061161726,
+        "off_peak_variability": 13.10236050993108
+      },
+      "AID01112": {
+        "speed_cv": 0.2584519166318457,
+        "occupancy_cv": 1.0897194701182995,
+        "volume_cv": 0.4748370227962317,
+        "peak_variability": 12.619761455690506,
+        "off_peak_variability": 13.047597538203314
+      },
+      "AID01114": {
+        "speed_cv": 0.10786772275330168,
+        "occupancy_cv": 0.9230237852709204,
+        "volume_cv": 0.508332179187521,
+        "peak_variability": 6.8281807795555585,
+        "off_peak_variability": 6.845966394157817
+      },
+      "AID01115": {
+        "speed_cv": 0.13764697324170874,
+        "occupancy_cv": 1.0184942414492504,
+        "volume_cv": 0.5453583099206336,
+        "peak_variability": 8.40473130858052,
+        "off_peak_variability": 7.415629892144408
+      },
+      "AID01208": {
+        "speed_cv": 0.08654068381572186,
+        "occupancy_cv": 0.7971003289882038,
+        "volume_cv": 0.42093435803368034,
+        "peak_variability": 5.047636289682988,
+        "off_peak_variability": 5.352699511787568
+      },
+      "AID01209": {
+        "speed_cv": 0.1922786809860941,
+        "occupancy_cv": 0.8861660619365936,
+        "volume_cv": 0.4525796808147143,
+        "peak_variability": 11.312228143450273,
+        "off_peak_variability": 11.647466558698838
+      },
+      "AID01210": {
+        "speed_cv": 0.2505498291885298,
+        "occupancy_cv": 1.2233910329214301,
+        "volume_cv": 0.48737008714913405,
+        "peak_variability": 11.07240086604368,
+        "off_peak_variability": 16.454188723258465
+      },
+      "AID01211": {
+        "speed_cv": 0.29725457539088235,
+        "occupancy_cv": 1.4438771986523615,
+        "volume_cv": 0.5986648507947496,
+        "peak_variability": 14.432338892079514,
+        "off_peak_variability": 18.586238483839995
+      },
+      "AID01212": {
+        "speed_cv": 0.2866089446201802,
+        "occupancy_cv": 1.6416287976324817,
+        "volume_cv": 0.6018791016959705,
+        "peak_variability": 16.307774031259985,
+        "off_peak_variability": 19.947872940420915
+      },
+      "AID01213": {
+        "speed_cv": 0.5602283372470717,
+        "occupancy_cv": 1.2164863444619063,
+        "volume_cv": 0.6294954304856707,
+        "peak_variability": 21.334774944530388,
+        "off_peak_variability": 20.515934912006582
+      },
+      "AID01214": {
+        "speed_cv": 0.28341207947691466,
+        "occupancy_cv": 0.7366017810221915,
+        "volume_cv": 0.4093646731997285,
+        "peak_variability": 10.613045868180228,
+        "off_peak_variability": 9.954464957501465
+      },
+      "AID02104": {
+        "speed_cv": 0.09893061492842166,
+        "occupancy_cv": 1.0373863200299465,
+        "volume_cv": 0.6332623854320076,
+        "peak_variability": 8.249175048070978,
+        "off_peak_variability": 7.913881611878422
+      },
+      "AID02205": {
+        "speed_cv": 0.1271446448482148,
+        "occupancy_cv": 0.9355956328879529,
+        "volume_cv": 0.5032699672621852,
+        "peak_variability": 10.24176888978962,
+        "off_peak_variability": 11.752971167288162
+      },
+      "AID02206": {
+        "speed_cv": 0.13782740308072405,
+        "occupancy_cv": 0.9690992447782403,
+        "volume_cv": 0.48859606807641104,
+        "peak_variability": 11.41557538598726,
+        "off_peak_variability": 12.90642468519021
+      },
+      "AID02207": {
+        "speed_cv": 0.15739768980206162,
+        "occupancy_cv": 1.00966033662895,
+        "volume_cv": 0.5588612393782653,
+        "peak_variability": 11.31538663879166,
+        "off_peak_variability": 11.638345135986182
+      },
+      "AID02208": {
+        "speed_cv": 0.1817331933928539,
+        "occupancy_cv": 1.0690288046645664,
+        "volume_cv": 0.5207825714236087,
+        "peak_variability": 13.914706913271173,
+        "off_peak_variability": 14.879578068919393
+      },
+      "AID02209": {
+        "speed_cv": 0.20858919777798568,
+        "occupancy_cv": 1.1092720088695602,
+        "volume_cv": 0.5001665816674356,
+        "peak_variability": 16.08151610399091,
+        "off_peak_variability": 18.72436235745892
+      },
+      "AID02210": {
+        "speed_cv": 0.20920824679147446,
+        "occupancy_cv": 1.11779523326394,
+        "volume_cv": 0.49637761167094474,
+        "peak_variability": 15.178580345517922,
+        "off_peak_variability": 17.484187103891443
+      },
+      "AID02212": {
+        "speed_cv": 0.1471946030706895,
+        "occupancy_cv": 1.0235415607931957,
+        "volume_cv": 0.7430153682229319,
+        "peak_variability": 10.591650634912877,
+        "off_peak_variability": 11.037778340747668
+      },
+      "AID02213": {
+        "speed_cv": 0.13692903273852206,
+        "occupancy_cv": 1.020564993094815,
+        "volume_cv": 0.511873432603431,
+        "peak_variability": 9.79595783908388,
+        "off_peak_variability": 10.510356187388085
+      },
+      "AID02214": {
+        "speed_cv": 0.16422493993538342,
+        "occupancy_cv": 1.1210329523587397,
+        "volume_cv": 0.6726913661655621,
+        "peak_variability": 11.754414425821606,
+        "off_peak_variability": 12.322354098335417
+      },
+      "AID03101": {
+        "speed_cv": 0.08113101028119046,
+        "occupancy_cv": 1.301979062775799,
+        "volume_cv": 0.7074268046979976,
+        "peak_variability": 5.695554618105574,
+        "off_peak_variability": 5.376224326763128
+      },
+      "AID03102": {
+        "speed_cv": 0.09595714796849712,
+        "occupancy_cv": 0.8606091626084805,
+        "volume_cv": 0.5906652957532723,
+        "peak_variability": 5.284408487646357,
+        "off_peak_variability": 4.98488512182589
+      },
+      "AID03103": {
+        "speed_cv": 0.2356683074151057,
+        "occupancy_cv": 1.2573417204005788,
+        "volume_cv": 0.6513428934610018,
+        "peak_variability": 20.186302630785427,
+        "off_peak_variability": 13.987879017922552
+      },
+      "AID03104": {
+        "speed_cv": 0.09815568956917123,
+        "occupancy_cv": 0.9559924925868596,
+        "volume_cv": 0.6495438339327437,
+        "peak_variability": 5.127412738765723,
+        "off_peak_variability": 4.343856682832447
+      },
+      "AID03106": {
+        "speed_cv": 0.12542018635191088,
+        "occupancy_cv": 0.9686660700664951,
+        "volume_cv": 0.6025095559056911,
+        "peak_variability": 13.62317847853194,
+        "off_peak_variability": 12.632046140171482
+      },
+      "AID03204": {
+        "speed_cv": 0.17292791590401968,
+        "occupancy_cv": 1.1111423527743967,
+        "volume_cv": 0.6314523159921239,
+        "peak_variability": 15.512781255436819,
+        "off_peak_variability": 15.914378141054941
+      },
+      "AID03205": {
+        "speed_cv": 0.21389324095096243,
+        "occupancy_cv": 0.9478063386505577,
+        "volume_cv": 0.47568148072496086,
+        "peak_variability": 17.96343459638425,
+        "off_peak_variability": 22.009449922762368
+      },
+      "AID03206": {
+        "speed_cv": 0.23801401113847767,
+        "occupancy_cv": 1.0436482818664643,
+        "volume_cv": 0.4735671709189984,
+        "peak_variability": 19.725396383021604,
+        "off_peak_variability": 24.361474700617553
+      },
+      "AID03207": {
+        "speed_cv": 0.2566017369834643,
+        "occupancy_cv": 1.0892584410822532,
+        "volume_cv": 0.4711533444856248,
+        "peak_variability": 19.878836638549917,
+        "off_peak_variability": 23.88057579710892
+      },
+      "AID03208": {
+        "speed_cv": 0.257685411254974,
+        "occupancy_cv": 1.1710267008332063,
+        "volume_cv": 0.5047742590566933,
+        "peak_variability": 20.530763306803312,
+        "off_peak_variability": 23.374902147161652
+      },
+      "AID03209": {
+        "speed_cv": 0.24543121931950398,
+        "occupancy_cv": 1.0624803339272797,
+        "volume_cv": 0.6567097025079424,
+        "peak_variability": 18.235359577489216,
+        "off_peak_variability": 21.231927527991665
+      },
+      "AID03210": {
+        "speed_cv": 0.16974050120172826,
+        "occupancy_cv": 1.2000762182714144,
+        "volume_cv": 0.8222341799386107,
+        "peak_variability": 9.78945442018609,
+        "off_peak_variability": 17.19988881938903
+      },
+      "AID03211": {
+        "speed_cv": 0.23325882594657596,
+        "occupancy_cv": 1.3492429577661993,
+        "volume_cv": 0.6925966071143951,
+        "peak_variability": 13.155573610811,
+        "off_peak_variability": 18.72705007678759
+      },
+      "AID04104": {
+        "speed_cv": 0.1605802635568367,
+        "occupancy_cv": 1.4802975742305269,
+        "volume_cv": 0.7547760771789126,
+        "peak_variability": 12.405867773147735,
+        "off_peak_variability": 11.565310200542655
+      },
+      "AID04106": {
+        "speed_cv": 0.15677250290883377,
+        "occupancy_cv": 0.922855347050233,
+        "volume_cv": 0.4649611309287889,
+        "peak_variability": 10.446238411544822,
+        "off_peak_variability": 12.389856665415834
+      },
+      "AID04107": {
+        "speed_cv": 0.15358418272962185,
+        "occupancy_cv": 0.9475439280114121,
+        "volume_cv": 0.5095335000364425,
+        "peak_variability": 10.44187562002039,
+        "off_peak_variability": 12.0261694687767
+      },
+      "AID04109": {
+        "speed_cv": 0.10517234942391024,
+        "occupancy_cv": 0.9142540414195373,
+        "volume_cv": 0.4720007941322841,
+        "peak_variability": 7.395473850793296,
+        "off_peak_variability": 6.630608450114273
+      },
+      "AID04110": {
+        "speed_cv": 0.18191372533266084,
+        "occupancy_cv": 1.5833689370080055,
+        "volume_cv": 0.8238548560614741,
+        "peak_variability": 15.749379085399351,
+        "off_peak_variability": 8.621438008456673
+      },
+      "AID04111": {
+        "speed_cv": 0.04688628457830488,
+        "occupancy_cv": 0.7504721896480282,
+        "volume_cv": 0.4400292519118751,
+        "peak_variability": 3.08389431402395,
+        "off_peak_variability": 3.0833707991120876
+      },
+      "AID04121": {
+        "speed_cv": 0.13077804244643867,
+        "occupancy_cv": 1.7913475826450878,
+        "volume_cv": 0.7679325311932962,
+        "peak_variability": 12.3766766559636,
+        "off_peak_variability": 8.209534160086177
+      },
+      "AID04210": {
+        "speed_cv": 0.10419781795438021,
+        "occupancy_cv": 1.1924270089987894,
+        "volume_cv": 0.6508816866769049,
+        "peak_variability": 8.0779034986969,
+        "off_peak_variability": 6.8827018857893965
+      },
+      "AID04211": {
+        "speed_cv": 0.08139707308132117,
+        "occupancy_cv": 1.3631743783618226,
+        "volume_cv": 0.6443392285153354,
+        "peak_variability": 5.913073939915894,
+        "off_peak_variability": 5.547803961392806
+      },
+      "AID04212": {
+        "speed_cv": 0.0960364403509481,
+        "occupancy_cv": 1.2747005363652852,
+        "volume_cv": 0.7126168364174091,
+        "peak_variability": 7.343792365337602,
+        "off_peak_variability": 6.538217734408211
+      },
+      "AID04214": {
+        "speed_cv": 0.122988186081974,
+        "occupancy_cv": 1.112383053821163,
+        "volume_cv": 0.7025165528100095,
+        "peak_variability": 9.774964705583033,
+        "off_peak_variability": 8.874697051851928
+      },
+      "AID04218": {
+        "speed_cv": 0.17036482986408158,
+        "occupancy_cv": 0.9358131491936675,
+        "volume_cv": 0.48851766228932386,
+        "peak_variability": 13.400451296578,
+        "off_peak_variability": 9.38736206013409
+      },
+      "AID04219": {
+        "speed_cv": 0.18583941533452406,
+        "occupancy_cv": 1.1737112171970643,
+        "volume_cv": 0.5837048314628672,
+        "peak_variability": 12.954160332340425,
+        "off_peak_variability": 9.659037239774285
+      },
+      "AID04220": {
+        "speed_cv": 0.06804193330612508,
+        "occupancy_cv": 1.4678015451694213,
+        "volume_cv": 0.8722641477242512,
+        "peak_variability": 5.736078074807682,
+        "off_peak_variability": 5.401787360294502
+      },
+      "AID04221": {
+        "speed_cv": 0.10117489568937846,
+        "occupancy_cv": 1.166576405557833,
+        "volume_cv": 0.5547076102946078,
+        "peak_variability": 7.682998802565472,
+        "off_peak_variability": 8.623711102303675
+      },
+      "AID05109": {
+        "speed_cv": 0.3898057713438215,
+        "occupancy_cv": 1.484566034288043,
+        "volume_cv": 0.9498269692979662,
+        "peak_variability": 19.08280857450785,
+        "off_peak_variability": 17.036215098148343
+      },
+      "AID05110": {
+        "speed_cv": 0.415879167057265,
+        "occupancy_cv": 1.0735337091641655,
+        "volume_cv": 0.5259738848203109,
+        "peak_variability": 16.958822892472394,
+        "off_peak_variability": 14.01312771885994
+      },
+      "AID05111": {
+        "speed_cv": 0.14140767226506892,
+        "occupancy_cv": 0.7743734672179644,
+        "volume_cv": 0.38166249304712996,
+        "peak_variability": 8.065918852678745,
+        "off_peak_variability": 8.004216258752356
+      },
+      "AID05226": {
+        "speed_cv": 0.24001512082636922,
+        "occupancy_cv": 1.3836005220241907,
+        "volume_cv": 0.8911923083055254,
+        "peak_variability": 11.743460882976095,
+        "off_peak_variability": 11.480331236951859
+      },
+      "AID05227": {
+        "speed_cv": 0.20651224432220647,
+        "occupancy_cv": 0.948992814470026,
+        "volume_cv": 0.6968429516976856,
+        "peak_variability": 11.398455413481384,
+        "off_peak_variability": 8.6912683456219
+      },
+      "AID07226": {
+        "speed_cv": 0.21983575909054837,
+        "occupancy_cv": 1.1446851170118635,
+        "volume_cv": 0.7982096819595436,
+        "peak_variability": 9.114973115173836,
+        "off_peak_variability": 8.60580923943818
+      },
+      "TDSIEC10001": {
+        "speed_cv": 0.314093256431408,
+        "occupancy_cv": 0.6273720011619526,
+        "volume_cv": 0.4855398320998348,
+        "peak_variability": 12.862530390117733,
+        "off_peak_variability": 12.689161256114865
+      },
+      "TDSIEC20002": {
+        "speed_cv": 0.2062742527722678,
+        "occupancy_cv": 0.7728860654812046,
+        "volume_cv": 0.4912303139319743,
+        "peak_variability": 14.455671155772981,
+        "off_peak_variability": 14.721865255338333
+      },
+      "AID05225": {
+        "speed_cv": 0.24327492943564744,
+        "occupancy_cv": 0.7452624778638267,
+        "volume_cv": 0.383047739165851,
+        "peak_variability": 10.970572912361884,
+        "off_peak_variability": 10.899089615048595
+      },
+      "AID02211": {
+        "speed_cv": 0.24386919723969147,
+        "occupancy_cv": 1.1011953253755626,
+        "volume_cv": 0.491695429823723,
+        "peak_variability": 16.37698845001445,
+        "off_peak_variability": 18.55890832015607
+      },
+      "TDSIEC10002": {
+        "speed_cv": 0.19322788032102772,
+        "occupancy_cv": 0.9405669765637447,
+        "volume_cv": 0.6678575701372867,
+        "peak_variability": 9.102506128996344,
+        "off_peak_variability": 7.451458226161943
+      },
+      "TDSIEC10003": {
+        "speed_cv": 0.2972918830540574,
+        "occupancy_cv": 1.0321110303969236,
+        "volume_cv": 0.5734721274652047,
+        "peak_variability": 13.438696957256987,
+        "off_peak_variability": 11.479316055410756
+      },
+      "TDSIEC10004": {
+        "speed_cv": 0.3000787605049497,
+        "occupancy_cv": 0.9781360579453473,
+        "volume_cv": 0.6534558666629392,
+        "peak_variability": 15.85611052794005,
+        "off_peak_variability": 13.37381001348113
+      }
+    },
+    "lane_heterogeneity": {},
+    "model_design_implications": {
+      "adaptive_requirements": {
+        "high_variability_detectors": [
+          "AID01108",
+          "AID01109",
+          "AID01110",
+          "AID01213",
+          "AID05109",
+          "AID05110",
+          "TDSIEC10001",
+          "TDSIEC10004"
+        ],
+        "stable_detectors": [
+          "AID01114",
+          "AID01115",
+          "AID01208",
+          "AID02104",
+          "AID02205",
+          "AID02206",
+          "AID02212",
+          "AID02213",
+          "AID03101",
+          "AID03102",
+          "AID03104",
+          "AID03106",
+          "AID04109",
+          "AID04111",
+          "AID04121",
+          "AID04210",
+          "AID04211",
+          "AID04212",
+          "AID04214",
+          "AID04220",
+          "AID04221",
+          "AID05111"
+        ]
+      },
+      "model_complexity_needs": {
+        "simple_models_suitable": 22,
+        "complex_models_needed": 8
+      }
+    },
+    "variability_summary": {
+      "high_variability_count": 8,
+      "moderate_variability_count": 35,
+      "low_variability_count": 22
+    }
+  },
+  "distance_based_correlation_analysis": {
+    "tunnel_correlations": {
+      "WHT_Southbound_Kowloon": {
+        "AID03204": {
+          "AID03204": 1.0,
+          "AID03205": 0.8682618707756007,
+          "AID03206": 0.7901507683829272,
+          "AID03207": 0.6784475003290205,
+          "AID03208": 0.658018523348839,
+          "AID03209": 0.6657367769759154,
+          "AID03210": 0.7261928658252893,
+          "AID03211": 0.5641250639786384
+        },
+        "AID03205": {
+          "AID03204": 0.8682618707756007,
+          "AID03205": 1.0,
+          "AID03206": 0.9350459281637479,
+          "AID03207": 0.8070689510873927,
+          "AID03208": 0.7703211001686515,
+          "AID03209": 0.7658793322887517,
+          "AID03210": 0.7374329261466106,
+          "AID03211": 0.5613496497256735
+        },
+        "AID03206": {
+          "AID03204": 0.7901507683829272,
+          "AID03205": 0.9350459281637479,
+          "AID03206": 1.0,
+          "AID03207": 0.8870323421616949,
+          "AID03208": 0.841682967566046,
+          "AID03209": 0.8150815446430508,
+          "AID03210": 0.7245662915224615,
+          "AID03211": 0.539773128746091
+        },
+        "AID03207": {
+          "AID03204": 0.6784475003290205,
+          "AID03205": 0.8070689510873927,
+          "AID03206": 0.8870323421616949,
+          "AID03207": 1.0,
+          "AID03208": 0.939932818596034,
+          "AID03209": 0.8940132419370005,
+          "AID03210": 0.7257870352338027,
+          "AID03211": 0.5469285893478418
+        },
+        "AID03208": {
+          "AID03204": 0.658018523348839,
+          "AID03205": 0.7703211001686515,
+          "AID03206": 0.841682967566046,
+          "AID03207": 0.939932818596034,
+          "AID03208": 1.0,
+          "AID03209": 0.9596543884886081,
+          "AID03210": 0.7314318839790839,
+          "AID03211": 0.5683367224290504
+        },
+        "AID03209": {
+          "AID03204": 0.6657367769759154,
+          "AID03205": 0.7658793322887517,
+          "AID03206": 0.8150815446430508,
+          "AID03207": 0.8940132419370005,
+          "AID03208": 0.9596543884886081,
+          "AID03209": 1.0,
+          "AID03210": 0.7759735568031958,
+          "AID03211": 0.5943855100254005
+        },
+        "AID03210": {
+          "AID03204": 0.7261928658252893,
+          "AID03205": 0.7374329261466106,
+          "AID03206": 0.7245662915224615,
+          "AID03207": 0.7257870352338027,
+          "AID03208": 0.7314318839790839,
+          "AID03209": 0.7759735568031958,
+          "AID03210": 1.0,
+          "AID03211": 0.7095176059400321
+        },
+        "AID03211": {
+          "AID03204": 0.5641250639786384,
+          "AID03205": 0.5613496497256735,
+          "AID03206": 0.539773128746091,
+          "AID03207": 0.5469285893478418,
+          "AID03208": 0.5683367224290504,
+          "AID03209": 0.5943855100254005,
+          "AID03210": 0.7095176059400321,
+          "AID03211": 1.0
+        }
+      },
+      "WHT_Northbound_Main": {
+        "AID03103": {
+          "AID03103": 1.0,
+          "AID04218": 0.9009307772000963,
+          "AID04219": 0.954358190314831
+        },
+        "AID04218": {
+          "AID03103": 0.9009307772000963,
+          "AID04218": 1.0,
+          "AID04219": 0.9548783335740014
+        },
+        "AID04219": {
+          "AID03103": 0.954358190314831,
+          "AID04218": 0.9548783335740014,
+          "AID04219": 1.0
+        }
+      },
+      "CHT_Northbound_Route1": {
+        "AID01108": {
+          "AID01108": 1.0,
+          "AID01109": 0.5376652121036067,
+          "AID01110": 0.5174332271041087
+        },
+        "AID01109": {
+          "AID01108": 0.5376652121036067,
+          "AID01109": 1.0,
+          "AID01110": 0.7794670688851354
+        },
+        "AID01110": {
+          "AID01108": 0.5174332271041087,
+          "AID01109": 0.7794670688851354,
+          "AID01110": 1.0
+        }
+      },
+      "CHT_Southbound_Route1": {
+        "AID01208": {
+          "AID01208": 1.0,
+          "AID01209": 0.817400608116602,
+          "AID01211": 0.4296973863341721,
+          "AID01212": 0.42343017931011906,
+          "AID01213": 0.6671092790993521
+        },
+        "AID01209": {
+          "AID01208": 0.817400608116602,
+          "AID01209": 1.0,
+          "AID01211": 0.3997573555219951,
+          "AID01212": 0.3827821830145814,
+          "AID01213": 0.6228205057822521
+        },
+        "AID01211": {
+          "AID01208": 0.4296973863341721,
+          "AID01209": 0.3997573555219951,
+          "AID01211": 1.0,
+          "AID01212": 0.9351349567613313,
+          "AID01213": 0.5124728367429433
+        },
+        "AID01212": {
+          "AID01208": 0.42343017931011906,
+          "AID01209": 0.3827821830145814,
+          "AID01211": 0.9351349567613313,
+          "AID01212": 1.0,
+          "AID01213": 0.5388723467205168
+        },
+        "AID01213": {
+          "AID01208": 0.6671092790993521,
+          "AID01209": 0.6228205057822521,
+          "AID01211": 0.5124728367429433,
+          "AID01212": 0.5388723467205168,
+          "AID01213": 1.0
+        }
+      },
+      "CHT_Southbound_Route2": {
+        "AID01213": {
+          "AID01213": 1.0,
+          "AID05225": 0.42291339514735093,
+          "AID05226": 0.5230938023531508
+        },
+        "AID05225": {
+          "AID01213": 0.42291339514735093,
+          "AID05225": 1.0,
+          "AID05226": 0.8392973662995189
+        },
+        "AID05226": {
+          "AID01213": 0.5230938023531508,
+          "AID05225": 0.8392973662995189,
+          "AID05226": 1.0
+        }
+      },
+      "CHT_Southbound_Route3": {
+        "AID01213": {
+          "AID01213": 1.0,
+          "AID05109": 0.6053818606195785
+        },
+        "AID05109": {
+          "AID01213": 0.6053818606195785,
+          "AID05109": 1.0
+        }
+      },
+      "EHT_Northbound_Route1": {
+        "AID04210": {
+          "AID04210": 1.0,
+          "AID04212": 0.7951059204277828
+        },
+        "AID04212": {
+          "AID04210": 0.7951059204277828,
+          "AID04212": 1.0
+        }
+      },
+      "EHT_Northbound_Route2": {
+        "AID04106": {
+          "AID04106": 1.0,
+          "AID04107": 0.9096305183425909,
+          "AID04110": 0.45083836983631376
+        },
+        "AID04107": {
+          "AID04106": 0.9096305183425909,
+          "AID04107": 1.0,
+          "AID04110": 0.4809422773739278
+        },
+        "AID04110": {
+          "AID04106": 0.45083836983631376,
+          "AID04107": 0.4809422773739278,
+          "AID04110": 1.0
+        }
+      },
+      "EHT_Southbound_Main": {
+        "AID02205": {
+          "AID02205": 1.0,
+          "AID02206": 0.8688780287727782,
+          "AID02207": 0.6869411393926409,
+          "AID02208": 0.6630873803441025,
+          "AID02209": 0.5156961692876442,
+          "AID02210": 0.4874880728543137,
+          "AID02211": 0.4520672783499164,
+          "AID02212": 0.5369303666485987,
+          "AID02213": 0.4015215821061892,
+          "AID02214": 0.4480785930020313
+        },
+        "AID02206": {
+          "AID02205": 0.8688780287727782,
+          "AID02206": 1.0,
+          "AID02207": 0.8199021781822368,
+          "AID02208": 0.7551264903110375,
+          "AID02209": 0.5631831043199476,
+          "AID02210": 0.5295612128714876,
+          "AID02211": 0.5010118313727422,
+          "AID02212": 0.5186908698403901,
+          "AID02213": 0.3906731923876954,
+          "AID02214": 0.43542676034429567
+        },
+        "AID02207": {
+          "AID02205": 0.6869411393926409,
+          "AID02206": 0.8199021781822368,
+          "AID02207": 1.0,
+          "AID02208": 0.9153814693140251,
+          "AID02209": 0.7256874986881877,
+          "AID02210": 0.6379000393553887,
+          "AID02211": 0.5246450776100064,
+          "AID02212": 0.5536800120792853,
+          "AID02213": 0.4486370308526133,
+          "AID02214": 0.4584683756985167
+        },
+        "AID02208": {
+          "AID02205": 0.6630873803441025,
+          "AID02206": 0.7551264903110375,
+          "AID02207": 0.9153814693140251,
+          "AID02208": 1.0,
+          "AID02209": 0.8511886675334354,
+          "AID02210": 0.7587455584794768,
+          "AID02211": 0.6245015491978387,
+          "AID02212": 0.593816137101367,
+          "AID02213": 0.4656458549949069,
+          "AID02214": 0.4936159749953701
+        },
+        "AID02209": {
+          "AID02205": 0.5156961692876442,
+          "AID02206": 0.5631831043199476,
+          "AID02207": 0.7256874986881877,
+          "AID02208": 0.8511886675334354,
+          "AID02209": 1.0,
+          "AID02210": 0.9313205270828063,
+          "AID02211": 0.7877054782783195,
+          "AID02212": 0.6602391122245478,
+          "AID02213": 0.5411039762317953,
+          "AID02214": 0.568698492064795
+        },
+        "AID02210": {
+          "AID02205": 0.4874880728543137,
+          "AID02206": 0.5295612128714876,
+          "AID02207": 0.6379000393553887,
+          "AID02208": 0.7587455584794768,
+          "AID02209": 0.9313205270828063,
+          "AID02210": 1.0,
+          "AID02211": 0.8916875344660253,
+          "AID02212": 0.6634280593982552,
+          "AID02213": 0.5311041397168459,
+          "AID02214": 0.5603633981729153
+        },
+        "AID02211": {
+          "AID02205": 0.4520672783499164,
+          "AID02206": 0.5010118313727422,
+          "AID02207": 0.5246450776100064,
+          "AID02208": 0.6245015491978387,
+          "AID02209": 0.7877054782783195,
+          "AID02210": 0.8916875344660253,
+          "AID02211": 1.0,
+          "AID02212": 0.7510851081968045,
+          "AID02213": 0.5774750435841004,
+          "AID02214": 0.623016385877077
+        },
+        "AID02212": {
+          "AID02205": 0.5369303666485987,
+          "AID02206": 0.5186908698403901,
+          "AID02207": 0.5536800120792853,
+          "AID02208": 0.593816137101367,
+          "AID02209": 0.6602391122245478,
+          "AID02210": 0.6634280593982552,
+          "AID02211": 0.7510851081968045,
+          "AID02212": 1.0,
+          "AID02213": 0.8793401065313483,
+          "AID02214": 0.7643736592897351
+        },
+        "AID02213": {
+          "AID02205": 0.4015215821061892,
+          "AID02206": 0.3906731923876954,
+          "AID02207": 0.4486370308526133,
+          "AID02208": 0.4656458549949069,
+          "AID02209": 0.5411039762317953,
+          "AID02210": 0.5311041397168459,
+          "AID02211": 0.5774750435841004,
+          "AID02212": 0.8793401065313483,
+          "AID02213": 1.0,
+          "AID02214": 0.7833502439387746
+        },
+        "AID02214": {
+          "AID02205": 0.4480785930020313,
+          "AID02206": 0.43542676034429567,
+          "AID02207": 0.4584683756985167,
+          "AID02208": 0.4936159749953701,
+          "AID02209": 0.568698492064795,
+          "AID02210": 0.5603633981729153,
+          "AID02211": 0.623016385877077,
+          "AID02212": 0.7643736592897351,
+          "AID02213": 0.7833502439387746,
+          "AID02214": 1.0
+        }
+      },
+      "Inter_Tunnel_Link1": {
+        "AID04104": {
+          "AID04104": 1.0,
+          "AID04106": 0.6607003410433343
+        },
+        "AID04106": {
+          "AID04104": 0.6607003410433343,
+          "AID04106": 1.0
+        }
+      }
+    },
+    "feature_correlations": {
+      "speed": {
+        "speed": 1.0,
+        "occupancy": -0.7285917294407233,
+        "volume": 0.0009246584709914871
+      },
+      "occupancy": {
+        "speed": -0.7285917294407233,
+        "occupancy": 1.0,
+        "volume": 0.30042243168956484
+      },
+      "volume": {
+        "speed": 0.0009246584709914871,
+        "occupancy": 0.30042243168956484,
+        "volume": 1.0
+      }
+    },
+    "distance_based_pairs": [
+      {
+        "detector1": "AID03204",
+        "detector2": "AID03205",
+        "correlation": 0.8431865470728476,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID03205",
+        "detector2": "AID03206",
+        "correlation": 0.9189826088160872,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID03206",
+        "detector2": "AID03207",
+        "correlation": 0.8640376701220035,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID03207",
+        "detector2": "AID03208",
+        "correlation": 0.9095070686574617,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID03208",
+        "detector2": "AID03209",
+        "correlation": 0.9307677250080256,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID03209",
+        "detector2": "AID03210",
+        "correlation": 0.40947729580666087,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID03210",
+        "detector2": "AID03211",
+        "correlation": 0.5840772613442856,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID04218",
+        "detector2": "AID04219",
+        "correlation": 0.5513180154250847,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID04219",
+        "detector2": "AID03103",
+        "correlation": 0.6521880332199212,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID01108",
+        "detector2": "AID01109",
+        "correlation": 0.4109557299613882,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID01109",
+        "detector2": "AID01110",
+        "correlation": 0.5316099022525482,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID01208",
+        "detector2": "AID01209",
+        "correlation": 0.6382147518463653,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID01209",
+        "detector2": "AID01211",
+        "correlation": 0.2876940336240061,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID01211",
+        "detector2": "AID01212",
+        "correlation": 0.8201209466851833,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID01212",
+        "detector2": "AID01213",
+        "correlation": 0.4401504857303898,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID05225",
+        "detector2": "AID05226",
+        "correlation": 0.5765547815242147,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID05226",
+        "detector2": "AID01213",
+        "correlation": 0.3861704162655715,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID04106",
+        "detector2": "AID04107",
+        "correlation": 0.8897444710643575,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02205",
+        "detector2": "AID02206",
+        "correlation": 0.8599625546167804,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02206",
+        "detector2": "AID02207",
+        "correlation": 0.7654197918497648,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02207",
+        "detector2": "AID02208",
+        "correlation": 0.9077337585583831,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02208",
+        "detector2": "AID02209",
+        "correlation": 0.8377166566001746,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02209",
+        "detector2": "AID02210",
+        "correlation": 0.9160876942486628,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02210",
+        "detector2": "AID02211",
+        "correlation": 0.817053984866243,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02211",
+        "detector2": "AID02212",
+        "correlation": 0.30981154657684545,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02212",
+        "detector2": "AID02213",
+        "correlation": 0.4088121610747745,
+        "relationship": "Sequential road network flow"
+      },
+      {
+        "detector1": "AID02213",
+        "detector2": "AID02214",
+        "correlation": 0.5628216939768218,
+        "relationship": "Sequential road network flow"
+      }
+    ],
+    "network_implications": {
+      "federated_clusters": 9,
+      "communication_efficiency": "27 distance-based connections optimize communication"
+    }
+  },
+  "temporal_analysis": {
+    "defined_peak_hours": [
+      7,
+      8,
+      9,
+      17,
+      18,
+      19
+    ],
+    "congested_peak_hours": [],
+    "hourly_patterns": {
+      "speed": {
+        "7": 71.00510225616803,
+        "8": 65.51196587467116,
+        "9": 64.52189712619742,
+        "10": 65.43894474679458,
+        "17": 63.09655761743439,
+        "18": 60.135282160385906,
+        "19": 67.47587102203339,
+        "20": 71.36322541664569
+      },
+      "occupancy": {
+        "7": 15.538224209838702,
+        "8": 22.513347237797785,
+        "9": 23.95436484798001,
+        "10": 22.647860488474823,
+        "17": 24.57830105678313,
+        "18": 27.743636382786004,
+        "19": 18.611053641616124,
+        "20": 12.71450883641307
+      },
+      "volume": {
+        "7": 43.57898598060399,
+        "8": 51.18488046702231,
+        "9": 52.10673677634319,
+        "10": 50.72134591929814,
+        "17": 58.01661526015068,
+        "18": 61.609546479051254,
+        "19": 49.419629937501924,
+        "20": 40.87024822516489
+      }
+    },
+    "peak_vs_non_peak": {
+      "peak_avg_speed": 65.29111267614839,
+      "non_peak_avg_speed": 68.40108508172014,
+      "peak_avg_occupancy": 22.156487896133626,
+      "non_peak_avg_occupancy": 17.681184662443947
+    },
+    "pattern_consistency": {
+      "0": 0.8,
+      "1": 0.8,
+      "2": 0.8,
+      "3": 0.8,
+      "4": 0.8,
+      "5": 0.8,
+      "6": 0.8,
+      "7": 0.8,
+      "8": 0.8,
+      "9": 0.8,
+      "10": 0.8,
+      "11": 0.8,
+      "12": 0.8,
+      "13": 0.8,
+      "14": 0.8,
+      "15": 0.8,
+      "16": 0.8,
+      "17": 0.8,
+      "18": 0.8,
+      "19": 0.8,
+      "20": 0.8,
+      "21": 0.8,
+      "22": 0.8,
+      "23": 0.8
+    }
+  },
+  "toll_plan_analysis": {
+    "analysis": {
+      "pre_toll_metrics": {
+        "avg_speed": 16.98741935483871,
+        "avg_volume": 7.841133992136701,
+        "congestion_events": 453
+      },
+      "post_toll_metrics": {
+        "avg_speed": 11.8,
+        "avg_volume": 4.962181313807818,
+        "congestion_events": 1
+      }
+    },
+    "peak_speed_improvement_percent": -30.536829912079146,
+    "congestion_reduction_percent": 99.77924944812362,
+    "remaining_bottlenecks": [
+      "AID05110"
+    ],
+    "toll_price_analysis": {
+      "toll_price_correlation": {
+        "high_toll_periods": {
+          "avg_speed": 66.78072612649487,
+          "avg_occupancy": 6.712049646746868,
+          "avg_volume": 40.04538234980068,
+          "congestion_events": 714
+        },
+        "low_toll_periods": {
+          "avg_speed": 72.37650714205027,
+          "avg_occupancy": 4.076881530224769,
+          "avg_volume": 30.960587451789454,
+          "congestion_events": 257
+        }
+      },
+      "day_type_analysis": {
+        "weekday_mon_fri": {
+          "avg_speed": 68.13403955184306,
+          "avg_occupancy": 6.103633549969304,
+          "congestion_rate": 0.0007811353757605415
+        },
+        "saturday": {
+          "avg_speed": 71.56892107678065,
+          "avg_occupancy": 4.550315927346817,
+          "congestion_rate": 6.46812226368109e-05,
+          "contamination_indicator": 0.9879135031044011
+        },
+        "sunday_reference": {
+          "avg_speed": 73.8290950701109,
+          "avg_occupancy": 3.147202518681486,
+          "congestion_rate": 2.950262784120843e-05,
+          "note": "Reference only - excluded from main calculations"
+        }
+      },
+      "price_effectiveness": {
+        "volume_reduction_high_toll": -29.343095999575898,
+        "speed_improvement_high_toll": -7.7314880705320626
+      }
+    },
+    "note": "Analysis focuses on congested peak hours (7-10 AM, 17-20 PM) with occupancy > 50%"
+  },
+  "critical_parameters": {
+    "congestion_occupancy_threshold": 50,
+    "severe_congestion_threshold": 70,
+    "congestion_speed_threshold": 30,
+    "weather_impact_threshold": 0.15,
+    "incident_detection_threshold": 3.0,
+    "seasonal_variation_window": 30,
+    "network_resilience_threshold": 0.8,
+    "model_accuracy_threshold": 0.85,
+    "privacy_epsilon": 1.0,
+    "federated_convergence_rounds": 50,
+    "edge_latency_threshold_ms": 10,
+    "bandwidth_constraint_kbps": 2.0,
+    "energy_budget_mw": 500
+  }
+}

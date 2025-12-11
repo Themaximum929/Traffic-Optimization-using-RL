@@ -1,0 +1,21 @@
+# Plot scripts
+Scripts/plot_*.py
+Scripts/tunnel_analysis_plot.py
+
+# large Csv
+ML_Data/*.csv
+ML_Data/*.parquet
+# Individual results folder
+Scripts/individual_results/
+
+# XML data folders (too many files for GitHub)
+202*_modified/
+202*/
+archived/
+
+# Model files
+*.h5
+*.pkl
+
+# Log files
+logs/
